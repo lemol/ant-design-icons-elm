@@ -1,0 +1,18 @@
+{
+  "name": "ant-design-icons-elm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lemol/ant-design-icons-elm",
+  "author": "Leza Lutonda (lemol) <lemol-c@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@ant-design/icons-svg": "^4.1.0",
+    "@types/lodash": "^4.14.158",
+    "@types/node": "^14.0.27",
+    "cross-env": "^7.0.2",
+    "lodash": "^4.17.19",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
