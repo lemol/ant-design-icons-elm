@@ -49,7 +49,7 @@ async function generateIcons() {
   await walk(async ({ svgIdentifier, ...iconDef }) => {
     try {
       const svgString = helpers.renderIconDefinitionToSVGElement(iconDef);
-      const parsed = await SvgParser.parseSvg(svgString);
+      const parsed = await SvgParser.parseSvg(prepareSvgString(svgString));
 
       const elmModuleBody = elmModuleToString(parsed.toElm(`Ant.Icons.${svgIdentifier}`));
 
@@ -62,6 +62,8 @@ async function generateIcons() {
       withErrors.push(svgIdentifier);
     }
   });
+
+  console.log({ withErrors });
 
   // generate icon index
   const imports = Object.keys(allIconDefs)
@@ -102,6 +104,13 @@ ${decls}
 
 function camelCase(str: string): string {
   return `${str[0].toLowerCase()}${str.substring(1)}`;
+}
+
+function prepareSvgString(str: string): string {
+  return str
+    .replace(`<defs><style /></defs>`, '')
+    .replace(/focusable=\"true\"/g, '')
+    .replace(/focusable=\"false\"/g, '');
 }
 
 if (process.argv[2] === '--target=icon') {

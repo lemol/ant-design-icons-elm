@@ -11,9 +11,9 @@ import Svg.Attributes exposing (..)
 
 view : Html msg
 view =
-    svg [ viewBox "64 64 896 896", undefined "false" ] [ Svg.path [ d "M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z" ] [] ]
+    svg [ viewBox "64 64 896 896" ] [ Svg.path [ d "M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z" ] [] ]
 
 
 viewWithAttributes : List (Html.Attribute msg) -> Html msg
 viewWithAttributes attributes =
-    svg ([ viewBox "64 64 896 896", undefined "false" ] ++ attributes) [ Svg.path [ d "M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z" ] [] ]
+    svg ([ viewBox "64 64 896 896" ] ++ attributes) [ Svg.path [ d "M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z" ] [] ]

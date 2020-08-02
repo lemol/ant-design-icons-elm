@@ -7,6 +7,7 @@ module Ant.Icons exposing (..)
 import Ant.Icons.AccountBookFilled
 import Ant.Icons.AccountBookOutlined
 import Ant.Icons.AccountBookTwoTone
+import Ant.Icons.AimOutlined
 import Ant.Icons.AlertFilled
 import Ant.Icons.AlertOutlined
 import Ant.Icons.AlertTwoTone
@@ -34,6 +35,7 @@ import Ant.Icons.ApiOutlined
 import Ant.Icons.ApiTwoTone
 import Ant.Icons.AppleFilled
 import Ant.Icons.AppleOutlined
+import Ant.Icons.AppstoreAddOutlined
 import Ant.Icons.AppstoreFilled
 import Ant.Icons.AppstoreOutlined
 import Ant.Icons.AppstoreTwoTone
@@ -44,6 +46,7 @@ import Ant.Icons.ArrowRightOutlined
 import Ant.Icons.ArrowUpOutlined
 import Ant.Icons.ArrowsAltOutlined
 import Ant.Icons.AudioFilled
+import Ant.Icons.AudioMutedOutlined
 import Ant.Icons.AudioOutlined
 import Ant.Icons.AudioTwoTone
 import Ant.Icons.AuditOutlined
@@ -77,6 +80,7 @@ import Ant.Icons.BorderOutlined
 import Ant.Icons.BorderRightOutlined
 import Ant.Icons.BorderTopOutlined
 import Ant.Icons.BorderVerticleOutlined
+import Ant.Icons.BorderlessTableOutlined
 import Ant.Icons.BoxPlotFilled
 import Ant.Icons.BoxPlotOutlined
 import Ant.Icons.BoxPlotTwoTone
@@ -127,6 +131,7 @@ import Ant.Icons.CiCircleOutlined
 import Ant.Icons.CiCircleTwoTone
 import Ant.Icons.CiOutlined
 import Ant.Icons.CiTwoTone
+import Ant.Icons.ClearOutlined
 import Ant.Icons.ClockCircleFilled
 import Ant.Icons.ClockCircleOutlined
 import Ant.Icons.ClockCircleTwoTone
@@ -158,9 +163,12 @@ import Ant.Icons.CodepenSquareFilled
 import Ant.Icons.CoffeeOutlined
 import Ant.Icons.ColumnHeightOutlined
 import Ant.Icons.ColumnWidthOutlined
+import Ant.Icons.CommentOutlined
 import Ant.Icons.CompassFilled
 import Ant.Icons.CompassOutlined
 import Ant.Icons.CompassTwoTone
+import Ant.Icons.CompressOutlined
+import Ant.Icons.ConsoleSqlOutlined
 import Ant.Icons.ContactsFilled
 import Ant.Icons.ContactsOutlined
 import Ant.Icons.ContactsTwoTone
@@ -194,9 +202,12 @@ import Ant.Icons.DashboardTwoTone
 import Ant.Icons.DatabaseFilled
 import Ant.Icons.DatabaseOutlined
 import Ant.Icons.DatabaseTwoTone
+import Ant.Icons.DeleteColumnOutlined
 import Ant.Icons.DeleteFilled
 import Ant.Icons.DeleteOutlined
+import Ant.Icons.DeleteRowOutlined
 import Ant.Icons.DeleteTwoTone
+import Ant.Icons.DeliveredProcedureOutlined
 import Ant.Icons.DeploymentUnitOutlined
 import Ant.Icons.DesktopOutlined
 import Ant.Icons.DiffFilled
@@ -253,6 +264,7 @@ import Ant.Icons.ExclamationCircleOutlined
 import Ant.Icons.ExclamationCircleTwoTone
 import Ant.Icons.ExclamationOutlined
 import Ant.Icons.ExpandAltOutlined
+import Ant.Icons.ExpandOutlined
 import Ant.Icons.ExperimentFilled
 import Ant.Icons.ExperimentOutlined
 import Ant.Icons.ExperimentTwoTone
@@ -270,6 +282,10 @@ import Ant.Icons.FastBackwardFilled
 import Ant.Icons.FastBackwardOutlined
 import Ant.Icons.FastForwardFilled
 import Ant.Icons.FastForwardOutlined
+import Ant.Icons.FieldBinaryOutlined
+import Ant.Icons.FieldNumberOutlined
+import Ant.Icons.FieldStringOutlined
+import Ant.Icons.FieldTimeOutlined
 import Ant.Icons.FileAddFilled
 import Ant.Icons.FileAddOutlined
 import Ant.Icons.FileAddTwoTone
@@ -281,6 +297,7 @@ import Ant.Icons.FileExclamationFilled
 import Ant.Icons.FileExclamationOutlined
 import Ant.Icons.FileExclamationTwoTone
 import Ant.Icons.FileFilled
+import Ant.Icons.FileGifOutlined
 import Ant.Icons.FileImageFilled
 import Ant.Icons.FileImageOutlined
 import Ant.Icons.FileImageTwoTone
@@ -329,10 +346,13 @@ import Ant.Icons.FolderOpenOutlined
 import Ant.Icons.FolderOpenTwoTone
 import Ant.Icons.FolderOutlined
 import Ant.Icons.FolderTwoTone
+import Ant.Icons.FolderViewOutlined
 import Ant.Icons.FontColorsOutlined
 import Ant.Icons.FontSizeOutlined
 import Ant.Icons.ForkOutlined
 import Ant.Icons.FormOutlined
+import Ant.Icons.FormatPainterFilled
+import Ant.Icons.FormatPainterOutlined
 import Ant.Icons.ForwardFilled
 import Ant.Icons.ForwardOutlined
 import Ant.Icons.FrownFilled
@@ -340,13 +360,17 @@ import Ant.Icons.FrownOutlined
 import Ant.Icons.FrownTwoTone
 import Ant.Icons.FullscreenExitOutlined
 import Ant.Icons.FullscreenOutlined
+import Ant.Icons.FunctionOutlined
 import Ant.Icons.FundFilled
 import Ant.Icons.FundOutlined
+import Ant.Icons.FundProjectionScreenOutlined
 import Ant.Icons.FundTwoTone
+import Ant.Icons.FundViewOutlined
 import Ant.Icons.FunnelPlotFilled
 import Ant.Icons.FunnelPlotOutlined
 import Ant.Icons.FunnelPlotTwoTone
 import Ant.Icons.GatewayOutlined
+import Ant.Icons.GifOutlined
 import Ant.Icons.GiftFilled
 import Ant.Icons.GiftOutlined
 import Ant.Icons.GiftTwoTone
@@ -365,6 +389,7 @@ import Ant.Icons.GooglePlusCircleFilled
 import Ant.Icons.GooglePlusOutlined
 import Ant.Icons.GooglePlusSquareFilled
 import Ant.Icons.GoogleSquareFilled
+import Ant.Icons.GroupOutlined
 import Ant.Icons.HddFilled
 import Ant.Icons.HddOutlined
 import Ant.Icons.HddTwoTone
@@ -397,6 +422,10 @@ import Ant.Icons.InfoCircleFilled
 import Ant.Icons.InfoCircleOutlined
 import Ant.Icons.InfoCircleTwoTone
 import Ant.Icons.InfoOutlined
+import Ant.Icons.InsertRowAboveOutlined
+import Ant.Icons.InsertRowBelowOutlined
+import Ant.Icons.InsertRowLeftOutlined
+import Ant.Icons.InsertRowRightOutlined
 import Ant.Icons.InstagramFilled
 import Ant.Icons.InstagramOutlined
 import Ant.Icons.InsuranceFilled
@@ -433,7 +462,10 @@ import Ant.Icons.LoadingOutlined
 import Ant.Icons.LockFilled
 import Ant.Icons.LockOutlined
 import Ant.Icons.LockTwoTone
+import Ant.Icons.LoginOutlined
 import Ant.Icons.LogoutOutlined
+import Ant.Icons.MacCommandFilled
+import Ant.Icons.MacCommandOutlined
 import Ant.Icons.MailFilled
 import Ant.Icons.MailOutlined
 import Ant.Icons.MailTwoTone
@@ -451,6 +483,7 @@ import Ant.Icons.MehTwoTone
 import Ant.Icons.MenuFoldOutlined
 import Ant.Icons.MenuOutlined
 import Ant.Icons.MenuUnfoldOutlined
+import Ant.Icons.MergeCellsOutlined
 import Ant.Icons.MessageFilled
 import Ant.Icons.MessageOutlined
 import Ant.Icons.MessageTwoTone
@@ -469,12 +502,17 @@ import Ant.Icons.MoneyCollectOutlined
 import Ant.Icons.MoneyCollectTwoTone
 import Ant.Icons.MonitorOutlined
 import Ant.Icons.MoreOutlined
+import Ant.Icons.NodeCollapseOutlined
+import Ant.Icons.NodeExpandOutlined
+import Ant.Icons.NodeIndexOutlined
 import Ant.Icons.NotificationFilled
 import Ant.Icons.NotificationOutlined
 import Ant.Icons.NotificationTwoTone
 import Ant.Icons.NumberOutlined
+import Ant.Icons.OneToOneOutlined
 import Ant.Icons.OrderedListOutlined
 import Ant.Icons.PaperClipOutlined
+import Ant.Icons.PartitionOutlined
 import Ant.Icons.PauseCircleFilled
 import Ant.Icons.PauseCircleOutlined
 import Ant.Icons.PauseCircleTwoTone
@@ -503,6 +541,7 @@ import Ant.Icons.PlaySquareTwoTone
 import Ant.Icons.PlusCircleFilled
 import Ant.Icons.PlusCircleOutlined
 import Ant.Icons.PlusCircleTwoTone
+import Ant.Icons.PlusOutlined
 import Ant.Icons.PlusSquareFilled
 import Ant.Icons.PlusSquareOutlined
 import Ant.Icons.PlusSquareTwoTone
@@ -555,6 +594,7 @@ import Ant.Icons.RedditSquareFilled
 import Ant.Icons.RedoOutlined
 import Ant.Icons.ReloadOutlined
 import Ant.Icons.RestFilled
+import Ant.Icons.RestOutlined
 import Ant.Icons.RestTwoTone
 import Ant.Icons.RetweetOutlined
 import Ant.Icons.RightCircleFilled
@@ -565,11 +605,14 @@ import Ant.Icons.RightSquareFilled
 import Ant.Icons.RightSquareOutlined
 import Ant.Icons.RightSquareTwoTone
 import Ant.Icons.RiseOutlined
+import Ant.Icons.RobotFilled
 import Ant.Icons.RobotOutlined
 import Ant.Icons.RocketFilled
 import Ant.Icons.RocketOutlined
 import Ant.Icons.RocketTwoTone
 import Ant.Icons.RollbackOutlined
+import Ant.Icons.RotateLeftOutlined
+import Ant.Icons.RotateRightOutlined
 import Ant.Icons.SafetyCertificateFilled
 import Ant.Icons.SafetyCertificateOutlined
 import Ant.Icons.SafetyCertificateTwoTone
@@ -587,6 +630,7 @@ import Ant.Icons.SecurityScanFilled
 import Ant.Icons.SecurityScanOutlined
 import Ant.Icons.SecurityScanTwoTone
 import Ant.Icons.SelectOutlined
+import Ant.Icons.SendOutlined
 import Ant.Icons.SettingFilled
 import Ant.Icons.SettingOutlined
 import Ant.Icons.SettingTwoTone
@@ -600,6 +644,8 @@ import Ant.Icons.ShoppingFilled
 import Ant.Icons.ShoppingOutlined
 import Ant.Icons.ShoppingTwoTone
 import Ant.Icons.ShrinkOutlined
+import Ant.Icons.SignalFilled
+import Ant.Icons.SisternodeOutlined
 import Ant.Icons.SketchCircleFilled
 import Ant.Icons.SketchOutlined
 import Ant.Icons.SketchSquareFilled
@@ -628,6 +674,7 @@ import Ant.Icons.SortDescendingOutlined
 import Ant.Icons.SoundFilled
 import Ant.Icons.SoundOutlined
 import Ant.Icons.SoundTwoTone
+import Ant.Icons.SplitCellsOutlined
 import Ant.Icons.StarFilled
 import Ant.Icons.StarOutlined
 import Ant.Icons.StarTwoTone
@@ -640,6 +687,7 @@ import Ant.Icons.StopFilled
 import Ant.Icons.StopOutlined
 import Ant.Icons.StopTwoTone
 import Ant.Icons.StrikethroughOutlined
+import Ant.Icons.SubnodeOutlined
 import Ant.Icons.SwapLeftOutlined
 import Ant.Icons.SwapOutlined
 import Ant.Icons.SwapRightOutlined
@@ -674,6 +722,7 @@ import Ant.Icons.TrademarkCircleOutlined
 import Ant.Icons.TrademarkCircleTwoTone
 import Ant.Icons.TrademarkOutlined
 import Ant.Icons.TransactionOutlined
+import Ant.Icons.TranslationOutlined
 import Ant.Icons.TrophyFilled
 import Ant.Icons.TrophyOutlined
 import Ant.Icons.TrophyTwoTone
@@ -682,6 +731,7 @@ import Ant.Icons.TwitterOutlined
 import Ant.Icons.TwitterSquareFilled
 import Ant.Icons.UnderlineOutlined
 import Ant.Icons.UndoOutlined
+import Ant.Icons.UngroupOutlined
 import Ant.Icons.UnlockFilled
 import Ant.Icons.UnlockOutlined
 import Ant.Icons.UnlockTwoTone
@@ -700,13 +750,16 @@ import Ant.Icons.UsbTwoTone
 import Ant.Icons.UserAddOutlined
 import Ant.Icons.UserDeleteOutlined
 import Ant.Icons.UserOutlined
+import Ant.Icons.UserSwitchOutlined
 import Ant.Icons.UsergroupAddOutlined
 import Ant.Icons.UsergroupDeleteOutlined
+import Ant.Icons.VerifiedOutlined
 import Ant.Icons.VerticalAlignBottomOutlined
 import Ant.Icons.VerticalAlignMiddleOutlined
 import Ant.Icons.VerticalAlignTopOutlined
 import Ant.Icons.VerticalLeftOutlined
 import Ant.Icons.VerticalRightOutlined
+import Ant.Icons.VideoCameraAddOutlined
 import Ant.Icons.VideoCameraFilled
 import Ant.Icons.VideoCameraOutlined
 import Ant.Icons.VideoCameraTwoTone
@@ -723,6 +776,7 @@ import Ant.Icons.WeiboCircleOutlined
 import Ant.Icons.WeiboOutlined
 import Ant.Icons.WeiboSquareFilled
 import Ant.Icons.WeiboSquareOutlined
+import Ant.Icons.WhatsAppOutlined
 import Ant.Icons.WifiOutlined
 import Ant.Icons.WindowsFilled
 import Ant.Icons.WindowsOutlined
@@ -769,6 +823,16 @@ accountBookTwoTone =
 accountBookTwoToneA : List (Html.Attribute msg) -> Html msg
 accountBookTwoToneA =
     Ant.Icons.AccountBookTwoTone.viewWithAttributes
+
+
+aimOutlined : Html msg
+aimOutlined =
+    Ant.Icons.AimOutlined.view
+
+
+aimOutlinedA : List (Html.Attribute msg) -> Html msg
+aimOutlinedA =
+    Ant.Icons.AimOutlined.viewWithAttributes
 
 
 alertFilled : Html msg
@@ -1041,6 +1105,16 @@ appleOutlinedA =
     Ant.Icons.AppleOutlined.viewWithAttributes
 
 
+appstoreAddOutlined : Html msg
+appstoreAddOutlined =
+    Ant.Icons.AppstoreAddOutlined.view
+
+
+appstoreAddOutlinedA : List (Html.Attribute msg) -> Html msg
+appstoreAddOutlinedA =
+    Ant.Icons.AppstoreAddOutlined.viewWithAttributes
+
+
 appstoreFilled : Html msg
 appstoreFilled =
     Ant.Icons.AppstoreFilled.view
@@ -1139,6 +1213,16 @@ audioFilled =
 audioFilledA : List (Html.Attribute msg) -> Html msg
 audioFilledA =
     Ant.Icons.AudioFilled.viewWithAttributes
+
+
+audioMutedOutlined : Html msg
+audioMutedOutlined =
+    Ant.Icons.AudioMutedOutlined.view
+
+
+audioMutedOutlinedA : List (Html.Attribute msg) -> Html msg
+audioMutedOutlinedA =
+    Ant.Icons.AudioMutedOutlined.viewWithAttributes
 
 
 audioOutlined : Html msg
@@ -1469,6 +1553,16 @@ borderVerticleOutlined =
 borderVerticleOutlinedA : List (Html.Attribute msg) -> Html msg
 borderVerticleOutlinedA =
     Ant.Icons.BorderVerticleOutlined.viewWithAttributes
+
+
+borderlessTableOutlined : Html msg
+borderlessTableOutlined =
+    Ant.Icons.BorderlessTableOutlined.view
+
+
+borderlessTableOutlinedA : List (Html.Attribute msg) -> Html msg
+borderlessTableOutlinedA =
+    Ant.Icons.BorderlessTableOutlined.viewWithAttributes
 
 
 boxPlotFilled : Html msg
@@ -1971,6 +2065,16 @@ ciTwoToneA =
     Ant.Icons.CiTwoTone.viewWithAttributes
 
 
+clearOutlined : Html msg
+clearOutlined =
+    Ant.Icons.ClearOutlined.view
+
+
+clearOutlinedA : List (Html.Attribute msg) -> Html msg
+clearOutlinedA =
+    Ant.Icons.ClearOutlined.viewWithAttributes
+
+
 clockCircleFilled : Html msg
 clockCircleFilled =
     Ant.Icons.ClockCircleFilled.view
@@ -2281,6 +2385,16 @@ columnWidthOutlinedA =
     Ant.Icons.ColumnWidthOutlined.viewWithAttributes
 
 
+commentOutlined : Html msg
+commentOutlined =
+    Ant.Icons.CommentOutlined.view
+
+
+commentOutlinedA : List (Html.Attribute msg) -> Html msg
+commentOutlinedA =
+    Ant.Icons.CommentOutlined.viewWithAttributes
+
+
 compassFilled : Html msg
 compassFilled =
     Ant.Icons.CompassFilled.view
@@ -2309,6 +2423,26 @@ compassTwoTone =
 compassTwoToneA : List (Html.Attribute msg) -> Html msg
 compassTwoToneA =
     Ant.Icons.CompassTwoTone.viewWithAttributes
+
+
+compressOutlined : Html msg
+compressOutlined =
+    Ant.Icons.CompressOutlined.view
+
+
+compressOutlinedA : List (Html.Attribute msg) -> Html msg
+compressOutlinedA =
+    Ant.Icons.CompressOutlined.viewWithAttributes
+
+
+consoleSqlOutlined : Html msg
+consoleSqlOutlined =
+    Ant.Icons.ConsoleSqlOutlined.view
+
+
+consoleSqlOutlinedA : List (Html.Attribute msg) -> Html msg
+consoleSqlOutlinedA =
+    Ant.Icons.ConsoleSqlOutlined.viewWithAttributes
 
 
 contactsFilled : Html msg
@@ -2641,6 +2775,16 @@ databaseTwoToneA =
     Ant.Icons.DatabaseTwoTone.viewWithAttributes
 
 
+deleteColumnOutlined : Html msg
+deleteColumnOutlined =
+    Ant.Icons.DeleteColumnOutlined.view
+
+
+deleteColumnOutlinedA : List (Html.Attribute msg) -> Html msg
+deleteColumnOutlinedA =
+    Ant.Icons.DeleteColumnOutlined.viewWithAttributes
+
+
 deleteFilled : Html msg
 deleteFilled =
     Ant.Icons.DeleteFilled.view
@@ -2661,6 +2805,16 @@ deleteOutlinedA =
     Ant.Icons.DeleteOutlined.viewWithAttributes
 
 
+deleteRowOutlined : Html msg
+deleteRowOutlined =
+    Ant.Icons.DeleteRowOutlined.view
+
+
+deleteRowOutlinedA : List (Html.Attribute msg) -> Html msg
+deleteRowOutlinedA =
+    Ant.Icons.DeleteRowOutlined.viewWithAttributes
+
+
 deleteTwoTone : Html msg
 deleteTwoTone =
     Ant.Icons.DeleteTwoTone.view
@@ -2669,6 +2823,16 @@ deleteTwoTone =
 deleteTwoToneA : List (Html.Attribute msg) -> Html msg
 deleteTwoToneA =
     Ant.Icons.DeleteTwoTone.viewWithAttributes
+
+
+deliveredProcedureOutlined : Html msg
+deliveredProcedureOutlined =
+    Ant.Icons.DeliveredProcedureOutlined.view
+
+
+deliveredProcedureOutlinedA : List (Html.Attribute msg) -> Html msg
+deliveredProcedureOutlinedA =
+    Ant.Icons.DeliveredProcedureOutlined.viewWithAttributes
 
 
 deploymentUnitOutlined : Html msg
@@ -3231,6 +3395,16 @@ expandAltOutlinedA =
     Ant.Icons.ExpandAltOutlined.viewWithAttributes
 
 
+expandOutlined : Html msg
+expandOutlined =
+    Ant.Icons.ExpandOutlined.view
+
+
+expandOutlinedA : List (Html.Attribute msg) -> Html msg
+expandOutlinedA =
+    Ant.Icons.ExpandOutlined.viewWithAttributes
+
+
 experimentFilled : Html msg
 experimentFilled =
     Ant.Icons.ExperimentFilled.view
@@ -3401,6 +3575,46 @@ fastForwardOutlinedA =
     Ant.Icons.FastForwardOutlined.viewWithAttributes
 
 
+fieldBinaryOutlined : Html msg
+fieldBinaryOutlined =
+    Ant.Icons.FieldBinaryOutlined.view
+
+
+fieldBinaryOutlinedA : List (Html.Attribute msg) -> Html msg
+fieldBinaryOutlinedA =
+    Ant.Icons.FieldBinaryOutlined.viewWithAttributes
+
+
+fieldNumberOutlined : Html msg
+fieldNumberOutlined =
+    Ant.Icons.FieldNumberOutlined.view
+
+
+fieldNumberOutlinedA : List (Html.Attribute msg) -> Html msg
+fieldNumberOutlinedA =
+    Ant.Icons.FieldNumberOutlined.viewWithAttributes
+
+
+fieldStringOutlined : Html msg
+fieldStringOutlined =
+    Ant.Icons.FieldStringOutlined.view
+
+
+fieldStringOutlinedA : List (Html.Attribute msg) -> Html msg
+fieldStringOutlinedA =
+    Ant.Icons.FieldStringOutlined.viewWithAttributes
+
+
+fieldTimeOutlined : Html msg
+fieldTimeOutlined =
+    Ant.Icons.FieldTimeOutlined.view
+
+
+fieldTimeOutlinedA : List (Html.Attribute msg) -> Html msg
+fieldTimeOutlinedA =
+    Ant.Icons.FieldTimeOutlined.viewWithAttributes
+
+
 fileAddFilled : Html msg
 fileAddFilled =
     Ant.Icons.FileAddFilled.view
@@ -3509,6 +3723,16 @@ fileFilled =
 fileFilledA : List (Html.Attribute msg) -> Html msg
 fileFilledA =
     Ant.Icons.FileFilled.viewWithAttributes
+
+
+fileGifOutlined : Html msg
+fileGifOutlined =
+    Ant.Icons.FileGifOutlined.view
+
+
+fileGifOutlinedA : List (Html.Attribute msg) -> Html msg
+fileGifOutlinedA =
+    Ant.Icons.FileGifOutlined.viewWithAttributes
 
 
 fileImageFilled : Html msg
@@ -3991,6 +4215,16 @@ folderTwoToneA =
     Ant.Icons.FolderTwoTone.viewWithAttributes
 
 
+folderViewOutlined : Html msg
+folderViewOutlined =
+    Ant.Icons.FolderViewOutlined.view
+
+
+folderViewOutlinedA : List (Html.Attribute msg) -> Html msg
+folderViewOutlinedA =
+    Ant.Icons.FolderViewOutlined.viewWithAttributes
+
+
 fontColorsOutlined : Html msg
 fontColorsOutlined =
     Ant.Icons.FontColorsOutlined.view
@@ -4029,6 +4263,26 @@ formOutlined =
 formOutlinedA : List (Html.Attribute msg) -> Html msg
 formOutlinedA =
     Ant.Icons.FormOutlined.viewWithAttributes
+
+
+formatPainterFilled : Html msg
+formatPainterFilled =
+    Ant.Icons.FormatPainterFilled.view
+
+
+formatPainterFilledA : List (Html.Attribute msg) -> Html msg
+formatPainterFilledA =
+    Ant.Icons.FormatPainterFilled.viewWithAttributes
+
+
+formatPainterOutlined : Html msg
+formatPainterOutlined =
+    Ant.Icons.FormatPainterOutlined.view
+
+
+formatPainterOutlinedA : List (Html.Attribute msg) -> Html msg
+formatPainterOutlinedA =
+    Ant.Icons.FormatPainterOutlined.viewWithAttributes
 
 
 forwardFilled : Html msg
@@ -4101,6 +4355,16 @@ fullscreenOutlinedA =
     Ant.Icons.FullscreenOutlined.viewWithAttributes
 
 
+functionOutlined : Html msg
+functionOutlined =
+    Ant.Icons.FunctionOutlined.view
+
+
+functionOutlinedA : List (Html.Attribute msg) -> Html msg
+functionOutlinedA =
+    Ant.Icons.FunctionOutlined.viewWithAttributes
+
+
 fundFilled : Html msg
 fundFilled =
     Ant.Icons.FundFilled.view
@@ -4121,6 +4385,16 @@ fundOutlinedA =
     Ant.Icons.FundOutlined.viewWithAttributes
 
 
+fundProjectionScreenOutlined : Html msg
+fundProjectionScreenOutlined =
+    Ant.Icons.FundProjectionScreenOutlined.view
+
+
+fundProjectionScreenOutlinedA : List (Html.Attribute msg) -> Html msg
+fundProjectionScreenOutlinedA =
+    Ant.Icons.FundProjectionScreenOutlined.viewWithAttributes
+
+
 fundTwoTone : Html msg
 fundTwoTone =
     Ant.Icons.FundTwoTone.view
@@ -4129,6 +4403,16 @@ fundTwoTone =
 fundTwoToneA : List (Html.Attribute msg) -> Html msg
 fundTwoToneA =
     Ant.Icons.FundTwoTone.viewWithAttributes
+
+
+fundViewOutlined : Html msg
+fundViewOutlined =
+    Ant.Icons.FundViewOutlined.view
+
+
+fundViewOutlinedA : List (Html.Attribute msg) -> Html msg
+fundViewOutlinedA =
+    Ant.Icons.FundViewOutlined.viewWithAttributes
 
 
 funnelPlotFilled : Html msg
@@ -4169,6 +4453,16 @@ gatewayOutlined =
 gatewayOutlinedA : List (Html.Attribute msg) -> Html msg
 gatewayOutlinedA =
     Ant.Icons.GatewayOutlined.viewWithAttributes
+
+
+gifOutlined : Html msg
+gifOutlined =
+    Ant.Icons.GifOutlined.view
+
+
+gifOutlinedA : List (Html.Attribute msg) -> Html msg
+gifOutlinedA =
+    Ant.Icons.GifOutlined.viewWithAttributes
 
 
 giftFilled : Html msg
@@ -4349,6 +4643,16 @@ googleSquareFilled =
 googleSquareFilledA : List (Html.Attribute msg) -> Html msg
 googleSquareFilledA =
     Ant.Icons.GoogleSquareFilled.viewWithAttributes
+
+
+groupOutlined : Html msg
+groupOutlined =
+    Ant.Icons.GroupOutlined.view
+
+
+groupOutlinedA : List (Html.Attribute msg) -> Html msg
+groupOutlinedA =
+    Ant.Icons.GroupOutlined.viewWithAttributes
 
 
 hddFilled : Html msg
@@ -4669,6 +4973,46 @@ infoOutlined =
 infoOutlinedA : List (Html.Attribute msg) -> Html msg
 infoOutlinedA =
     Ant.Icons.InfoOutlined.viewWithAttributes
+
+
+insertRowAboveOutlined : Html msg
+insertRowAboveOutlined =
+    Ant.Icons.InsertRowAboveOutlined.view
+
+
+insertRowAboveOutlinedA : List (Html.Attribute msg) -> Html msg
+insertRowAboveOutlinedA =
+    Ant.Icons.InsertRowAboveOutlined.viewWithAttributes
+
+
+insertRowBelowOutlined : Html msg
+insertRowBelowOutlined =
+    Ant.Icons.InsertRowBelowOutlined.view
+
+
+insertRowBelowOutlinedA : List (Html.Attribute msg) -> Html msg
+insertRowBelowOutlinedA =
+    Ant.Icons.InsertRowBelowOutlined.viewWithAttributes
+
+
+insertRowLeftOutlined : Html msg
+insertRowLeftOutlined =
+    Ant.Icons.InsertRowLeftOutlined.view
+
+
+insertRowLeftOutlinedA : List (Html.Attribute msg) -> Html msg
+insertRowLeftOutlinedA =
+    Ant.Icons.InsertRowLeftOutlined.viewWithAttributes
+
+
+insertRowRightOutlined : Html msg
+insertRowRightOutlined =
+    Ant.Icons.InsertRowRightOutlined.view
+
+
+insertRowRightOutlinedA : List (Html.Attribute msg) -> Html msg
+insertRowRightOutlinedA =
+    Ant.Icons.InsertRowRightOutlined.viewWithAttributes
 
 
 instagramFilled : Html msg
@@ -5031,6 +5375,16 @@ lockTwoToneA =
     Ant.Icons.LockTwoTone.viewWithAttributes
 
 
+loginOutlined : Html msg
+loginOutlined =
+    Ant.Icons.LoginOutlined.view
+
+
+loginOutlinedA : List (Html.Attribute msg) -> Html msg
+loginOutlinedA =
+    Ant.Icons.LoginOutlined.viewWithAttributes
+
+
 logoutOutlined : Html msg
 logoutOutlined =
     Ant.Icons.LogoutOutlined.view
@@ -5039,6 +5393,26 @@ logoutOutlined =
 logoutOutlinedA : List (Html.Attribute msg) -> Html msg
 logoutOutlinedA =
     Ant.Icons.LogoutOutlined.viewWithAttributes
+
+
+macCommandFilled : Html msg
+macCommandFilled =
+    Ant.Icons.MacCommandFilled.view
+
+
+macCommandFilledA : List (Html.Attribute msg) -> Html msg
+macCommandFilledA =
+    Ant.Icons.MacCommandFilled.viewWithAttributes
+
+
+macCommandOutlined : Html msg
+macCommandOutlined =
+    Ant.Icons.MacCommandOutlined.view
+
+
+macCommandOutlinedA : List (Html.Attribute msg) -> Html msg
+macCommandOutlinedA =
+    Ant.Icons.MacCommandOutlined.viewWithAttributes
 
 
 mailFilled : Html msg
@@ -5209,6 +5583,16 @@ menuUnfoldOutlined =
 menuUnfoldOutlinedA : List (Html.Attribute msg) -> Html msg
 menuUnfoldOutlinedA =
     Ant.Icons.MenuUnfoldOutlined.viewWithAttributes
+
+
+mergeCellsOutlined : Html msg
+mergeCellsOutlined =
+    Ant.Icons.MergeCellsOutlined.view
+
+
+mergeCellsOutlinedA : List (Html.Attribute msg) -> Html msg
+mergeCellsOutlinedA =
+    Ant.Icons.MergeCellsOutlined.viewWithAttributes
 
 
 messageFilled : Html msg
@@ -5391,6 +5775,36 @@ moreOutlinedA =
     Ant.Icons.MoreOutlined.viewWithAttributes
 
 
+nodeCollapseOutlined : Html msg
+nodeCollapseOutlined =
+    Ant.Icons.NodeCollapseOutlined.view
+
+
+nodeCollapseOutlinedA : List (Html.Attribute msg) -> Html msg
+nodeCollapseOutlinedA =
+    Ant.Icons.NodeCollapseOutlined.viewWithAttributes
+
+
+nodeExpandOutlined : Html msg
+nodeExpandOutlined =
+    Ant.Icons.NodeExpandOutlined.view
+
+
+nodeExpandOutlinedA : List (Html.Attribute msg) -> Html msg
+nodeExpandOutlinedA =
+    Ant.Icons.NodeExpandOutlined.viewWithAttributes
+
+
+nodeIndexOutlined : Html msg
+nodeIndexOutlined =
+    Ant.Icons.NodeIndexOutlined.view
+
+
+nodeIndexOutlinedA : List (Html.Attribute msg) -> Html msg
+nodeIndexOutlinedA =
+    Ant.Icons.NodeIndexOutlined.viewWithAttributes
+
+
 notificationFilled : Html msg
 notificationFilled =
     Ant.Icons.NotificationFilled.view
@@ -5431,6 +5845,16 @@ numberOutlinedA =
     Ant.Icons.NumberOutlined.viewWithAttributes
 
 
+oneToOneOutlined : Html msg
+oneToOneOutlined =
+    Ant.Icons.OneToOneOutlined.view
+
+
+oneToOneOutlinedA : List (Html.Attribute msg) -> Html msg
+oneToOneOutlinedA =
+    Ant.Icons.OneToOneOutlined.viewWithAttributes
+
+
 orderedListOutlined : Html msg
 orderedListOutlined =
     Ant.Icons.OrderedListOutlined.view
@@ -5449,6 +5873,16 @@ paperClipOutlined =
 paperClipOutlinedA : List (Html.Attribute msg) -> Html msg
 paperClipOutlinedA =
     Ant.Icons.PaperClipOutlined.viewWithAttributes
+
+
+partitionOutlined : Html msg
+partitionOutlined =
+    Ant.Icons.PartitionOutlined.view
+
+
+partitionOutlinedA : List (Html.Attribute msg) -> Html msg
+partitionOutlinedA =
+    Ant.Icons.PartitionOutlined.viewWithAttributes
 
 
 pauseCircleFilled : Html msg
@@ -5729,6 +6163,16 @@ plusCircleTwoTone =
 plusCircleTwoToneA : List (Html.Attribute msg) -> Html msg
 plusCircleTwoToneA =
     Ant.Icons.PlusCircleTwoTone.viewWithAttributes
+
+
+plusOutlined : Html msg
+plusOutlined =
+    Ant.Icons.PlusOutlined.view
+
+
+plusOutlinedA : List (Html.Attribute msg) -> Html msg
+plusOutlinedA =
+    Ant.Icons.PlusOutlined.viewWithAttributes
 
 
 plusSquareFilled : Html msg
@@ -6251,6 +6695,16 @@ restFilledA =
     Ant.Icons.RestFilled.viewWithAttributes
 
 
+restOutlined : Html msg
+restOutlined =
+    Ant.Icons.RestOutlined.view
+
+
+restOutlinedA : List (Html.Attribute msg) -> Html msg
+restOutlinedA =
+    Ant.Icons.RestOutlined.viewWithAttributes
+
+
 restTwoTone : Html msg
 restTwoTone =
     Ant.Icons.RestTwoTone.view
@@ -6351,6 +6805,16 @@ riseOutlinedA =
     Ant.Icons.RiseOutlined.viewWithAttributes
 
 
+robotFilled : Html msg
+robotFilled =
+    Ant.Icons.RobotFilled.view
+
+
+robotFilledA : List (Html.Attribute msg) -> Html msg
+robotFilledA =
+    Ant.Icons.RobotFilled.viewWithAttributes
+
+
 robotOutlined : Html msg
 robotOutlined =
     Ant.Icons.RobotOutlined.view
@@ -6399,6 +6863,26 @@ rollbackOutlined =
 rollbackOutlinedA : List (Html.Attribute msg) -> Html msg
 rollbackOutlinedA =
     Ant.Icons.RollbackOutlined.viewWithAttributes
+
+
+rotateLeftOutlined : Html msg
+rotateLeftOutlined =
+    Ant.Icons.RotateLeftOutlined.view
+
+
+rotateLeftOutlinedA : List (Html.Attribute msg) -> Html msg
+rotateLeftOutlinedA =
+    Ant.Icons.RotateLeftOutlined.viewWithAttributes
+
+
+rotateRightOutlined : Html msg
+rotateRightOutlined =
+    Ant.Icons.RotateRightOutlined.view
+
+
+rotateRightOutlinedA : List (Html.Attribute msg) -> Html msg
+rotateRightOutlinedA =
+    Ant.Icons.RotateRightOutlined.viewWithAttributes
 
 
 safetyCertificateFilled : Html msg
@@ -6571,6 +7055,16 @@ selectOutlinedA =
     Ant.Icons.SelectOutlined.viewWithAttributes
 
 
+sendOutlined : Html msg
+sendOutlined =
+    Ant.Icons.SendOutlined.view
+
+
+sendOutlinedA : List (Html.Attribute msg) -> Html msg
+sendOutlinedA =
+    Ant.Icons.SendOutlined.viewWithAttributes
+
+
 settingFilled : Html msg
 settingFilled =
     Ant.Icons.SettingFilled.view
@@ -6699,6 +7193,26 @@ shrinkOutlined =
 shrinkOutlinedA : List (Html.Attribute msg) -> Html msg
 shrinkOutlinedA =
     Ant.Icons.ShrinkOutlined.viewWithAttributes
+
+
+signalFilled : Html msg
+signalFilled =
+    Ant.Icons.SignalFilled.view
+
+
+signalFilledA : List (Html.Attribute msg) -> Html msg
+signalFilledA =
+    Ant.Icons.SignalFilled.viewWithAttributes
+
+
+sisternodeOutlined : Html msg
+sisternodeOutlined =
+    Ant.Icons.SisternodeOutlined.view
+
+
+sisternodeOutlinedA : List (Html.Attribute msg) -> Html msg
+sisternodeOutlinedA =
+    Ant.Icons.SisternodeOutlined.viewWithAttributes
 
 
 sketchCircleFilled : Html msg
@@ -6981,6 +7495,16 @@ soundTwoToneA =
     Ant.Icons.SoundTwoTone.viewWithAttributes
 
 
+splitCellsOutlined : Html msg
+splitCellsOutlined =
+    Ant.Icons.SplitCellsOutlined.view
+
+
+splitCellsOutlinedA : List (Html.Attribute msg) -> Html msg
+splitCellsOutlinedA =
+    Ant.Icons.SplitCellsOutlined.viewWithAttributes
+
+
 starFilled : Html msg
 starFilled =
     Ant.Icons.StarFilled.view
@@ -7099,6 +7623,16 @@ strikethroughOutlined =
 strikethroughOutlinedA : List (Html.Attribute msg) -> Html msg
 strikethroughOutlinedA =
     Ant.Icons.StrikethroughOutlined.viewWithAttributes
+
+
+subnodeOutlined : Html msg
+subnodeOutlined =
+    Ant.Icons.SubnodeOutlined.view
+
+
+subnodeOutlinedA : List (Html.Attribute msg) -> Html msg
+subnodeOutlinedA =
+    Ant.Icons.SubnodeOutlined.viewWithAttributes
 
 
 swapLeftOutlined : Html msg
@@ -7441,6 +7975,16 @@ transactionOutlinedA =
     Ant.Icons.TransactionOutlined.viewWithAttributes
 
 
+translationOutlined : Html msg
+translationOutlined =
+    Ant.Icons.TranslationOutlined.view
+
+
+translationOutlinedA : List (Html.Attribute msg) -> Html msg
+translationOutlinedA =
+    Ant.Icons.TranslationOutlined.viewWithAttributes
+
+
 trophyFilled : Html msg
 trophyFilled =
     Ant.Icons.TrophyFilled.view
@@ -7519,6 +8063,16 @@ undoOutlined =
 undoOutlinedA : List (Html.Attribute msg) -> Html msg
 undoOutlinedA =
     Ant.Icons.UndoOutlined.viewWithAttributes
+
+
+ungroupOutlined : Html msg
+ungroupOutlined =
+    Ant.Icons.UngroupOutlined.view
+
+
+ungroupOutlinedA : List (Html.Attribute msg) -> Html msg
+ungroupOutlinedA =
+    Ant.Icons.UngroupOutlined.viewWithAttributes
 
 
 unlockFilled : Html msg
@@ -7701,6 +8255,16 @@ userOutlinedA =
     Ant.Icons.UserOutlined.viewWithAttributes
 
 
+userSwitchOutlined : Html msg
+userSwitchOutlined =
+    Ant.Icons.UserSwitchOutlined.view
+
+
+userSwitchOutlinedA : List (Html.Attribute msg) -> Html msg
+userSwitchOutlinedA =
+    Ant.Icons.UserSwitchOutlined.viewWithAttributes
+
+
 usergroupAddOutlined : Html msg
 usergroupAddOutlined =
     Ant.Icons.UsergroupAddOutlined.view
@@ -7719,6 +8283,16 @@ usergroupDeleteOutlined =
 usergroupDeleteOutlinedA : List (Html.Attribute msg) -> Html msg
 usergroupDeleteOutlinedA =
     Ant.Icons.UsergroupDeleteOutlined.viewWithAttributes
+
+
+verifiedOutlined : Html msg
+verifiedOutlined =
+    Ant.Icons.VerifiedOutlined.view
+
+
+verifiedOutlinedA : List (Html.Attribute msg) -> Html msg
+verifiedOutlinedA =
+    Ant.Icons.VerifiedOutlined.viewWithAttributes
 
 
 verticalAlignBottomOutlined : Html msg
@@ -7769,6 +8343,16 @@ verticalRightOutlined =
 verticalRightOutlinedA : List (Html.Attribute msg) -> Html msg
 verticalRightOutlinedA =
     Ant.Icons.VerticalRightOutlined.viewWithAttributes
+
+
+videoCameraAddOutlined : Html msg
+videoCameraAddOutlined =
+    Ant.Icons.VideoCameraAddOutlined.view
+
+
+videoCameraAddOutlinedA : List (Html.Attribute msg) -> Html msg
+videoCameraAddOutlinedA =
+    Ant.Icons.VideoCameraAddOutlined.viewWithAttributes
 
 
 videoCameraFilled : Html msg
@@ -7929,6 +8513,16 @@ weiboSquareOutlined =
 weiboSquareOutlinedA : List (Html.Attribute msg) -> Html msg
 weiboSquareOutlinedA =
     Ant.Icons.WeiboSquareOutlined.viewWithAttributes
+
+
+whatsAppOutlined : Html msg
+whatsAppOutlined =
+    Ant.Icons.WhatsAppOutlined.view
+
+
+whatsAppOutlinedA : List (Html.Attribute msg) -> Html msg
+whatsAppOutlinedA =
+    Ant.Icons.WhatsAppOutlined.viewWithAttributes
 
 
 wifiOutlined : Html msg
