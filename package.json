@@ -1,17 +1,24 @@
 {
   "name": "ant-design-icons-elm",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": "true",
   "repository": "https://github.com/lemol/ant-design-icons-elm",
   "author": "Leza Lutonda (lemol) <lemol-c@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "generate": "rimraf src/Ant/Icons.elm src/Ant/Icons && node -r ts-node/register scripts/generate.ts --target=icon",
+    "format": "elm-format --yes src/",
+    "build": "npm run generate && npm run format"
+  },
   "devDependencies": {
     "@ant-design/icons-svg": "^4.1.0",
     "@types/lodash": "^4.14.158",
     "@types/node": "^14.0.27",
     "cross-env": "^7.0.2",
+    "elm-format": "^0.8.3",
     "lodash": "^4.17.19",
     "rimraf": "^3.0.2",
+    "svg-to-elm": "^0.6.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   }
