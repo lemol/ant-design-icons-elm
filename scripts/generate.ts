@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import * as allIconDefs from '@ant-design/icons-svg';
 import { IconDefinition } from '@ant-design/icons-svg/es/types';
 import * as helpers from '@ant-design/icons-svg/lib/helpers';
@@ -8,6 +9,7 @@ import { promisify } from 'util';
 import { template } from 'lodash';
 import SvgParser from 'svg-to-elm';
 import elmModuleToString from 'svg-to-elm/lib/src/elm-module-to-string';
+import categories, { Categories, CategoriesKeys } from './categories';
 
 const writeFile = promisify(fs.writeFile);
 
@@ -65,26 +67,55 @@ async function generateIcons() {
 
   console.log({ withErrors });
 
-  // generate icon index
-  const imports = Object.keys(allIconDefs)
+  const withSuccess = Object.keys(allIconDefs)
     .filter(x => !withErrors.includes(x))
-    .sort()
+    .sort();
+
+  // generate icon index
+  const exposingList = withSuccess
+    .map(svgIdentifier => `${camelCase(svgIdentifier)}, ${camelCase(svgIdentifier)}_`)
+    .join('\n,');
+
+  const imports = withSuccess
     .map(svgIdentifier => `import Ant.Icons.${svgIdentifier}`)
     .join('\n');
 
-  const decls = Object.keys(allIconDefs)
-    .filter(x => !withErrors.includes(x))
-    .sort()
+  const decls = withSuccess
     .map(svgIdentifier => `
+{-| ${svgIdentifier}
+-}
 ${camelCase(svgIdentifier)} : List (Html.Attribute msg) -> Html msg
 ${camelCase(svgIdentifier)} =
     Ant.Icons.${svgIdentifier}.viewWithAttributes
 
 
+{-| ${svgIdentifier} without attributes
+-}
 ${camelCase(svgIdentifier)}_ : Html msg
 ${camelCase(svgIdentifier)}_ =
     Ant.Icons.${svgIdentifier}.view
     `)
+    .join('\n');
+
+  const docs = (Object.keys(categories) as CategoriesKeys[])
+    .map((key: CategoriesKeys) => {
+      const category = categories[key];
+      const title = category.title;
+
+      const itemList = category.items.map(x => {
+        return [`${x}Outlined`, `${x}Filled`, `${x}TwoTone`].filter(y => withSuccess.includes(y))
+      });
+
+      const items = _.flatten(itemList)
+        .map(camelCase)
+        .reduce((acc, act) => [ ...acc, act, `${act}_` ], [] as string[])
+        .join(', ');
+
+      return `
+# ${title}
+@docs ${items}
+      `;
+    })
     .join('\n');
 
   await promisify(fs.appendFile)(
@@ -92,7 +123,11 @@ ${camelCase(svgIdentifier)}_ =
     `
 -- GENERATE BY ./scripts/generate.ts
 -- DO NOT EDIT IT MANUALLY
-module Ant.Icons exposing (..)
+module Ant.Icons exposing (${exposingList})
+
+{-| ant-design-icons-elm
+${docs}
+-}
 
 import Html exposing (Html)
 ${imports}
