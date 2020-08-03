@@ -76,14 +76,14 @@ async function generateIcons() {
     .filter(x => !withErrors.includes(x))
     .sort()
     .map(svgIdentifier => `
-${camelCase(svgIdentifier)} : Html msg
+${camelCase(svgIdentifier)} : List (Html.Attribute msg) -> Html msg
 ${camelCase(svgIdentifier)} =
-    Ant.Icons.${svgIdentifier}.view
-
-
-${camelCase(svgIdentifier)}A : List (Html.Attribute msg) -> Html msg
-${camelCase(svgIdentifier)}A =
     Ant.Icons.${svgIdentifier}.viewWithAttributes
+
+
+${camelCase(svgIdentifier)}_ : Html msg
+${camelCase(svgIdentifier)}_ =
+    Ant.Icons.${svgIdentifier}.view
     `)
     .join('\n');
 
