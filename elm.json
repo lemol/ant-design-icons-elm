@@ -3,7 +3,7 @@
     "name": "lemol/ant-design-icons-elm",
     "summary": "Ant Design Icons for Elm",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "exposed-modules": [
         "Ant.Icons"
     ],

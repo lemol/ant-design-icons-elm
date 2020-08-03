@@ -5,10 +5,14 @@
   "repository": "https://github.com/lemol/ant-design-icons-elm",
   "author": "Leza Lutonda (lemol) <lemol-c@hotmail.com>",
   "license": "MIT",
+  "assetsPath": "showcase/public/assets/",
   "scripts": {
     "generate": "rimraf src/Ant/Icons.elm src/Ant/Icons && node -r ts-node/register scripts/generate.ts --target=icon",
     "format": "elm-format --yes src/",
-    "build": "npm run generate && npm run format"
+    "build": "npm run generate && npm run format",
+    "docs": "elm make --docs=dist/docs.json",
+    "build:showcase": "parcel build showcase/public/index.html --public-url ./",
+    "showcase": "parcel showcase/public/index.html"
   },
   "devDependencies": {
     "@ant-design/icons-svg": "^4.1.0",
@@ -16,7 +20,11 @@
     "@types/node": "^14.0.27",
     "cross-env": "^7.0.2",
     "elm-format": "^0.8.3",
+    "elm-hot": "^1.1.5",
     "lodash": "^4.17.19",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-asset-copier": "^1.1.0",
     "rimraf": "^3.0.2",
     "svg-to-elm": "^0.6.0",
     "ts-node": "^8.10.2",
