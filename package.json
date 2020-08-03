@@ -10,7 +10,7 @@
     "generate": "rimraf src/Ant/Icons.elm src/Ant/Icons && node -r ts-node/register scripts/generate.ts --target=icon",
     "format": "elm-format --yes src/",
     "build": "npm run generate && npm run format",
-    "docs": "elm make --docs=dist/docs.json",
+    "docs": "elm make --docs=docs.json",
     "build:showcase": "parcel build showcase/public/index.html --public-url ./",
     "showcase": "parcel showcase/public/index.html"
   },
