@@ -1,8 +1,8 @@
 # Ant Design Icons for Elm
 
-[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)
+>> **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
 
-[Showcase](https://ant-design-icons-elm.vercel.app)
+>> **[Showcase](https://ant-design-icons-elm.vercel.app)**
 
 This packages exposes all SVG icons from [ant-design](https://ant.design/components/icon/).
 It is the implementation for elm of [ant-design-icons](https://github.com/ant-design/ant-design-icons/tree/master/packages).
@@ -17,7 +17,7 @@ elm install lemol/ant-design-icons-elm
 
 * Tip: all elm modules for this package are generated automatically with the scripts in `scripts` directory.
 
-* Talk with @lemol on [Elm Slack](https://elmlang.slack.com/)
+* Find @lemol on [Elm Slack](https://elmlang.slack.com/)
 
 ## Resources
 
