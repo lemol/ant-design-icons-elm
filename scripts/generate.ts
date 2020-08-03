@@ -73,8 +73,8 @@ async function generateIcons() {
 
   // generate icon index
   const exposingList = withSuccess
-    .map(svgIdentifier => `${camelCase(svgIdentifier)}, ${camelCase(svgIdentifier)}_`)
-    .join('\n,');
+    .map(camelCase)
+    .join('\n  , ');
 
   const imports = withSuccess
     .map(svgIdentifier => `import Ant.Icons.${svgIdentifier}`)
@@ -87,15 +87,8 @@ async function generateIcons() {
 ${camelCase(svgIdentifier)} : List (Html.Attribute msg) -> Html msg
 ${camelCase(svgIdentifier)} =
     Ant.Icons.${svgIdentifier}.viewWithAttributes
-
-
-{-| ${svgIdentifier} without attributes
--}
-${camelCase(svgIdentifier)}_ : Html msg
-${camelCase(svgIdentifier)}_ =
-    Ant.Icons.${svgIdentifier}.view
     `)
-    .join('\n');
+    .join('\n\n');
 
   const docs = (Object.keys(categories) as CategoriesKeys[])
     .map((key: CategoriesKeys) => {
@@ -108,7 +101,6 @@ ${camelCase(svgIdentifier)}_ =
 
       const items = _.flatten(itemList)
         .map(camelCase)
-        .reduce((acc, act) => [ ...acc, act, `${act}_` ], [] as string[])
         .join(', ');
 
       return `
@@ -123,7 +115,9 @@ ${camelCase(svgIdentifier)}_ =
     `
 -- GENERATE BY ./scripts/generate.ts
 -- DO NOT EDIT IT MANUALLY
-module Ant.Icons exposing (${exposingList})
+module Ant.Icons exposing
+  ( ${exposingList}
+  )
 
 {-| List of Ant Design icons
 ${docs}
