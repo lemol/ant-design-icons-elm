@@ -125,7 +125,7 @@ ${camelCase(svgIdentifier)}_ =
 -- DO NOT EDIT IT MANUALLY
 module Ant.Icons exposing (${exposingList})
 
-{-| ant-design-icons-elm
+{-| List of Ant Design icons
 ${docs}
 -}
 
