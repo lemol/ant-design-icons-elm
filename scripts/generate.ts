@@ -10,6 +10,7 @@ import { template } from 'lodash';
 import SvgParser from 'svg-to-elm';
 import elmModuleToString from 'svg-to-elm/lib/src/elm-module-to-string';
 import categories, { Categories, CategoriesKeys } from './categories';
+import { generateStories } from './generate-showcase';
 
 const writeFile = promisify(fs.writeFile);
 
@@ -129,6 +130,8 @@ ${imports}
 ${decls}
     `.trim(),
   );
+
+  await generateStories(withSuccess);
 }
 
 function camelCase(str: string): string {

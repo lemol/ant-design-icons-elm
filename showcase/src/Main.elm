@@ -1,7 +1,31 @@
-module Main exposing (..)
+module Main exposing (main)
+
+import Html exposing (Html)
+import Stories
+import UIExplorer exposing (UIExplorerProgram, defaultConfig, explore, storiesOf)
 
 
-import Html
-
+main : UIExplorerProgram {} () {}
 main =
-  Html.text "WIP"
+    explore
+        defaultConfig
+        stories
+
+
+stories =
+    Stories.allCategories
+        |> List.map
+            (\category ->
+                storiesOf category.name
+                    [ ( "Outlined", \_ -> viewIcons category.outlined, {} )
+                    , ( "Filled", \_ -> viewIcons category.filled, {} )
+                    , ( "Two Tones", \_ -> viewIcons category.twoTone, {} )
+                    ]
+            )
+
+
+viewIcons : List (Html msg) -> Html msg
+viewIcons items =
+    Html.div
+        []
+        items
