@@ -8,6 +8,7 @@ import { promisify } from 'util';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { template } from 'lodash';
 import SvgParser from 'svg-to-elm';
+import svgToDataURL from 'svg-to-dataurl';
 import elmModuleToString from 'svg-to-elm/lib/src/elm-module-to-string';
 import categories, { Categories, CategoriesKeys } from './categories';
 import { generateStories } from './generate-showcase';
@@ -34,7 +35,7 @@ function walk<T>(
 }
 
 async function generateIcons() {
-  const iconsDir = path.join(__dirname, '../src/Ant/Icons');
+  const iconsDir = path.join(__dirname, '../src/Ant/Icons/Svg');
   try {
     await promisify(fs.access)(iconsDir);
   } catch (err) {
@@ -54,11 +55,11 @@ async function generateIcons() {
       const svgString = helpers.renderIconDefinitionToSVGElement(iconDef);
       const parsed = await SvgParser.parseSvg(prepareSvgString(svgString));
 
-      const elmModuleBody = elmModuleToString(parsed.toElm(`Ant.Icons.${svgIdentifier}`));
+      const elmModuleBody = elmModuleToString(parsed.toElm(`Ant.Icons.Svg.${svgIdentifier}`));
 
       // generate icon file
       await writeFile(
-        path.resolve(__dirname, `../src/Ant/Icons/${svgIdentifier}.elm`),
+        path.resolve(__dirname, `../src/Ant/Icons/Svg/${svgIdentifier}.elm`),
         render({ elmModuleBody }),
       );
     } catch(error) {
@@ -78,18 +79,24 @@ async function generateIcons() {
     .join('\n  , ');
 
   const imports = withSuccess
-    .map(svgIdentifier => `import Ant.Icons.${svgIdentifier}`)
+    .map(svgIdentifier => `import Ant.Icons.Svg.${svgIdentifier} as ${svgIdentifier}`)
     .join('\n');
 
-  const decls = withSuccess
-    .map(svgIdentifier => `
-{-| ${svgIdentifier}
+    const decls = withSuccess
+      .map(svgIdentifier => {
+        const iconDef = (allIconDefs as any)[svgIdentifier];
+        const svgString = prepareSvgString(helpers.renderIconDefinitionToSVGElement(iconDef));
+        const svgEncoded = svgToDataURL(svgString.replace("<svg", '<svg width="32" height="32"'));
+
+        return `
+{-| ![${svgIdentifier}](${svgEncoded} "${svgIdentifier} preview")
 -}
 ${camelCase(svgIdentifier)} : List (Html.Attribute msg) -> Html msg
 ${camelCase(svgIdentifier)} =
-    Ant.Icons.${svgIdentifier}.viewWithAttributes
-    `)
-    .join('\n\n');
+    ${svgIdentifier}.viewWithAttributes
+      `;
+      })
+      .join('\n\n');
 
   const docs = (Object.keys(categories) as CategoriesKeys[])
     .map((key: CategoriesKeys) => {
@@ -112,11 +119,11 @@ ${camelCase(svgIdentifier)} =
     .join('\n');
 
   await promisify(fs.appendFile)(
-    path.resolve(__dirname, '../src/Ant/Icons.elm'),
+    path.resolve(__dirname, '../src/Ant/Icons/Svg.elm'),
     `
 -- GENERATE BY ./scripts/generate.ts
 -- DO NOT EDIT IT MANUALLY
-module Ant.Icons exposing
+module Ant.Icons.Svg exposing
   ( ${exposingList}
   )
 
