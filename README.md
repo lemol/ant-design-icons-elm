@@ -3,14 +3,14 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Elm package](https://img.shields.io/elm-package/v/lemol/ant-design-icons-elm.svg)](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest/)
 
-> 📦  **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
+> **📦 [Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
 
-> 🎬  **[Showcase](https://ant-design-icons-elm.vercel.app)**
+> **🎬 [Showcase](https://ant-design-icons-elm.vercel.app)**
 
-This packages exposes all SVG icons from [ant-design](https://ant.design/components/icon/).
+This package exposes all SVG icons from [ant-design](https://ant.design/components/icon/).
 It is the port of [@ant-design/icons-svg](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg) for elm.
 
-The exposed icons are Vanilla `List (Html.Attribute msg) -> Html msg` functions.
+The exposed icons are vanilla `List (Html.Attribute msg) -> Html msg` functions.
 
 Try this live example on Ellie or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
 
@@ -77,4 +77,4 @@ elm install lemol/ant-design-icons-elm
 
 ## License
 
-MIT
+MIT License
