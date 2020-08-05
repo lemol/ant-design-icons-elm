@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Elm package](https://img.shields.io/elm-package/v/lemol/ant-design-icons-elm.svg)](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest/)
 
-> 📦 **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
+> 📦  **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
 
-> 🎬 **[Showcase](https://ant-design-icons-elm.vercel.app)**
+> 🎬  **[Showcase](https://ant-design-icons-elm.vercel.app)**
 
 This packages exposes all SVG icons from [ant-design](https://ant.design/components/icon/).
 It is the port of [@ant-design/icons-svg](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg) for elm.
