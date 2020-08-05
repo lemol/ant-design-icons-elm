@@ -12,7 +12,7 @@ It is the port of [@ant-design/icons-svg](https://github.com/ant-design/ant-desi
 
 The exposed icons are vanilla `List (Html.Attribute msg) -> Html msg` functions.
 
-Try this live example on Ellie or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
+Try this [live example on Ellie](https://ellie-app.com/9Cz3pW9k6bQa1) or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
 
 ```elm
 module Main exposing (main)
