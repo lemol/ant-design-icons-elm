@@ -3,7 +3,7 @@
     "name": "lemol/ant-design-icons-elm",
     "summary": "Ant Design Icons for Elm",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "exposed-modules": [
         "Ant.Icons.Svg"
     ],
@@ -13,6 +13,5 @@
         "elm/html": "1.0.0 <= v < 2.0.0",
         "elm/svg": "1.0.1 <= v < 2.0.0"
     },
-    "test-dependencies": {
-    }
+    "test-dependencies": {}
 }
