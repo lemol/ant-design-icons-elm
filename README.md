@@ -3,12 +3,59 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Elm package](https://img.shields.io/elm-package/v/lemol/ant-design-icons-elm.svg)](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest/)
 
-> **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
+> 📦 **[Package documentation](https://package.elm-lang.org/packages/lemol/ant-design-icons-elm/latest)**
 
-> **[Showcase](https://ant-design-icons-elm.vercel.app)**
+> 🎬 **[Showcase](https://ant-design-icons-elm.vercel.app)**
 
 This packages exposes all SVG icons from [ant-design](https://ant.design/components/icon/).
-It is the implementation for elm of [ant-design-icons](https://github.com/ant-design/ant-design-icons/tree/master/packages).
+It is the port of [@ant-design/icons-svg](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg) for elm.
+
+The exposed icons are Vanilla `List (Html.Attribute msg) -> Html msg` functions.
+
+Try this live example on Ellie or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
+
+```elm
+module Main exposing (main)
+
+import Ant.Icons.Svg as Icons
+import Html exposing (Html)
+import Svg.Attributes exposing (height, width)
+
+
+main : Html msg
+main =
+    Html.div [] myIcons
+
+
+myIcons : List (Html msg)
+myIcons =
+    [ Icons.homeOutlined
+        [ width "24"
+        , height "24"
+        ]
+    , Icons.settingFilled
+        [ width "24"
+        , height "24"
+        ]
+    , Icons.smileOutlined
+        [ width "24"
+        , height "24"
+        ]
+    , Icons.syncOutlined
+        [ width "24"
+        , height "24"
+        ]
+    , Icons.smileOutlined
+        [ width "24"
+        , height "24"
+        ]
+    , Icons.loadingOutlined
+        [ width "24"
+        , height "24"
+        ]
+    ]
+```
+
 
 ## Install
 
