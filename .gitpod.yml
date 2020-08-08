@@ -5,3 +5,7 @@ tasks:
 ports:
   - port: 123
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - elmTooling.elm-ls-vscode@1.2.0:HTRkzUtSfZ5H2p6bPf2IHw==
