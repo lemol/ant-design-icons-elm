@@ -13,7 +13,7 @@ It is the port of [@ant-design/icons-svg](https://github.com/ant-design/ant-desi
 
 The exposed icons are vanilla `List (Html.Attribute msg) -> Html msg` functions.
 
-Try the below example [on Ellie](https://ellie-app.com/9FjW2gCqbnca1) or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
+Try the below example [on Ellie](https://ellie-app.com/new) or navigate to the [complete showcase](https://ant-design-icons-elm.vercel.app)!
 
 ```elm
 module Main exposing (main)
@@ -55,9 +55,15 @@ myIcons =
         [ width "24"
         , height "24"
         ]
+    , Icons.heartTwoTone
+        [ width "24"
+        , height "24"
+        ]
+        { primaryColor = Just "#EB2F96"
+        , secondaryColor = Just "FFF0F6"
+        }
     ]
 ```
-
 
 ## Install
 
@@ -67,17 +73,17 @@ elm install lemol/ant-design-icons-elm
 
 ## Contributing
 
-* Tip: all elm modules for this package are generated automatically with the scripts in `scripts` directory.
+- Tip: every elm module for this package is generated automatically with the scripts in `scripts` directory.
 
-* Find @lemol on [Elm Slack](https://elmlang.slack.com/)
+- Find @lemol on [Elm Slack](https://elmlang.slack.com/)
 
-* [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lemol/ant-design-icons-elm)
+- [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lemol/ant-design-icons-elm)
 
 ## Resources
 
-* https://ant.design/components/icon/
+- https://ant.design/components/icon/
 
-* https://github.com/ant-design/ant-design-icons
+- https://github.com/ant-design/ant-design-icons
 
 ## License
 

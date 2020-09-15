@@ -42,282 +42,300 @@ direction : Category msg
 direction =
     { name = "Directional Icons"
     , outlined =
-        [ { name = "StepBackwardOutlined"
+        [ { name = "stepBackwardOutlined"
           , view = Icons.stepBackwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StepForwardOutlined"
+        , { name = "stepForwardOutlined"
           , view = Icons.stepForwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FastBackwardOutlined"
+        , { name = "fastBackwardOutlined"
           , view = Icons.fastBackwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FastForwardOutlined"
+        , { name = "fastForwardOutlined"
           , view = Icons.fastForwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShrinkOutlined"
+        , { name = "shrinkOutlined"
           , view = Icons.shrinkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ArrowsAltOutlined"
+        , { name = "arrowsAltOutlined"
           , view = Icons.arrowsAltOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownOutlined"
+        , { name = "downOutlined"
           , view = Icons.downOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UpOutlined"
+        , { name = "upOutlined"
           , view = Icons.upOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LeftOutlined"
+        , { name = "leftOutlined"
           , view = Icons.leftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RightOutlined"
+        , { name = "rightOutlined"
           , view = Icons.rightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretUpOutlined"
+        , { name = "caretUpOutlined"
           , view = Icons.caretUpOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretDownOutlined"
+        , { name = "caretDownOutlined"
           , view = Icons.caretDownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretLeftOutlined"
+        , { name = "caretLeftOutlined"
           , view = Icons.caretLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretRightOutlined"
+        , { name = "caretRightOutlined"
           , view = Icons.caretRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UpCircleOutlined"
+        , { name = "upCircleOutlined"
           , view = Icons.upCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownCircleOutlined"
+        , { name = "downCircleOutlined"
           , view = Icons.downCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LeftCircleOutlined"
+        , { name = "leftCircleOutlined"
           , view = Icons.leftCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RightCircleOutlined"
+        , { name = "rightCircleOutlined"
           , view = Icons.rightCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DoubleRightOutlined"
+        , { name = "doubleRightOutlined"
           , view = Icons.doubleRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DoubleLeftOutlined"
+        , { name = "doubleLeftOutlined"
           , view = Icons.doubleLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerticalLeftOutlined"
+        , { name = "verticalLeftOutlined"
           , view = Icons.verticalLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerticalRightOutlined"
+        , { name = "verticalRightOutlined"
           , view = Icons.verticalRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerticalAlignTopOutlined"
+        , { name = "verticalAlignTopOutlined"
           , view = Icons.verticalAlignTopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerticalAlignMiddleOutlined"
+        , { name = "verticalAlignMiddleOutlined"
           , view = Icons.verticalAlignMiddleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerticalAlignBottomOutlined"
+        , { name = "verticalAlignBottomOutlined"
           , view = Icons.verticalAlignBottomOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ForwardOutlined"
+        , { name = "forwardOutlined"
           , view = Icons.forwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BackwardOutlined"
+        , { name = "backwardOutlined"
           , view = Icons.backwardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RollbackOutlined"
+        , { name = "rollbackOutlined"
           , view = Icons.rollbackOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EnterOutlined"
+        , { name = "enterOutlined"
           , view = Icons.enterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RetweetOutlined"
+        , { name = "retweetOutlined"
           , view = Icons.retweetOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SwapOutlined"
+        , { name = "swapOutlined"
           , view = Icons.swapOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SwapLeftOutlined"
+        , { name = "swapLeftOutlined"
           , view = Icons.swapLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SwapRightOutlined"
+        , { name = "swapRightOutlined"
           , view = Icons.swapRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ArrowUpOutlined"
+        , { name = "arrowUpOutlined"
           , view = Icons.arrowUpOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ArrowDownOutlined"
+        , { name = "arrowDownOutlined"
           , view = Icons.arrowDownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ArrowLeftOutlined"
+        , { name = "arrowLeftOutlined"
           , view = Icons.arrowLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ArrowRightOutlined"
+        , { name = "arrowRightOutlined"
           , view = Icons.arrowRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlayCircleOutlined"
+        , { name = "playCircleOutlined"
           , view = Icons.playCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UpSquareOutlined"
+        , { name = "upSquareOutlined"
           , view = Icons.upSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownSquareOutlined"
+        , { name = "downSquareOutlined"
           , view = Icons.downSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LeftSquareOutlined"
+        , { name = "leftSquareOutlined"
           , view = Icons.leftSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RightSquareOutlined"
+        , { name = "rightSquareOutlined"
           , view = Icons.rightSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LoginOutlined"
+        , { name = "loginOutlined"
           , view = Icons.loginOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LogoutOutlined"
+        , { name = "logoutOutlined"
           , view = Icons.logoutOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MenuFoldOutlined"
+        , { name = "menuFoldOutlined"
           , view = Icons.menuFoldOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MenuUnfoldOutlined"
+        , { name = "menuUnfoldOutlined"
           , view = Icons.menuUnfoldOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderBottomOutlined"
+        , { name = "borderBottomOutlined"
           , view = Icons.borderBottomOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderHorizontalOutlined"
+        , { name = "borderHorizontalOutlined"
           , view = Icons.borderHorizontalOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderInnerOutlined"
+        , { name = "borderInnerOutlined"
           , view = Icons.borderInnerOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderOuterOutlined"
+        , { name = "borderOuterOutlined"
           , view = Icons.borderOuterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderLeftOutlined"
+        , { name = "borderLeftOutlined"
           , view = Icons.borderLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderRightOutlined"
+        , { name = "borderRightOutlined"
           , view = Icons.borderRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderTopOutlined"
+        , { name = "borderTopOutlined"
           , view = Icons.borderTopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderVerticleOutlined"
+        , { name = "borderVerticleOutlined"
           , view = Icons.borderVerticleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PicCenterOutlined"
+        , { name = "picCenterOutlined"
           , view = Icons.picCenterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PicLeftOutlined"
+        , { name = "picLeftOutlined"
           , view = Icons.picLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PicRightOutlined"
+        , { name = "picRightOutlined"
           , view = Icons.picRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadiusBottomleftOutlined"
+        , { name = "radiusBottomleftOutlined"
           , view = Icons.radiusBottomleftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadiusBottomrightOutlined"
+        , { name = "radiusBottomrightOutlined"
           , view = Icons.radiusBottomrightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadiusUpleftOutlined"
+        , { name = "radiusUpleftOutlined"
           , view = Icons.radiusUpleftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadiusUprightOutlined"
+        , { name = "radiusUprightOutlined"
           , view = Icons.radiusUprightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FullscreenOutlined"
+        , { name = "fullscreenOutlined"
           , view = Icons.fullscreenOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FullscreenExitOutlined"
+        , { name = "fullscreenExitOutlined"
           , view = Icons.fullscreenExitOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "StepBackwardFilled"
+        [ { name = "stepBackwardFilled"
           , view = Icons.stepBackwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StepForwardFilled"
+        , { name = "stepForwardFilled"
           , view = Icons.stepForwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FastBackwardFilled"
+        , { name = "fastBackwardFilled"
           , view = Icons.fastBackwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FastForwardFilled"
+        , { name = "fastForwardFilled"
           , view = Icons.fastForwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretUpFilled"
+        , { name = "caretUpFilled"
           , view = Icons.caretUpFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretDownFilled"
+        , { name = "caretDownFilled"
           , view = Icons.caretDownFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretLeftFilled"
+        , { name = "caretLeftFilled"
           , view = Icons.caretLeftFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CaretRightFilled"
+        , { name = "caretRightFilled"
           , view = Icons.caretRightFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UpCircleFilled"
+        , { name = "upCircleFilled"
           , view = Icons.upCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownCircleFilled"
+        , { name = "downCircleFilled"
           , view = Icons.downCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LeftCircleFilled"
+        , { name = "leftCircleFilled"
           , view = Icons.leftCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RightCircleFilled"
+        , { name = "rightCircleFilled"
           , view = Icons.rightCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ForwardFilled"
+        , { name = "forwardFilled"
           , view = Icons.forwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BackwardFilled"
+        , { name = "backwardFilled"
           , view = Icons.backwardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlayCircleFilled"
+        , { name = "playCircleFilled"
           , view = Icons.playCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UpSquareFilled"
+        , { name = "upSquareFilled"
           , view = Icons.upSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownSquareFilled"
+        , { name = "downSquareFilled"
           , view = Icons.downSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LeftSquareFilled"
+        , { name = "leftSquareFilled"
           , view = Icons.leftSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RightSquareFilled"
+        , { name = "rightSquareFilled"
           , view = Icons.rightSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "UpCircleTwoTone"
-          , view = Icons.upCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "upCircleTwoTone"
+          , view =
+                Icons.upCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "DownCircleTwoTone"
-          , view = Icons.downCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "downCircleTwoTone"
+          , view =
+                Icons.downCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "LeftCircleTwoTone"
-          , view = Icons.leftCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "leftCircleTwoTone"
+          , view =
+                Icons.leftCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "RightCircleTwoTone"
-          , view = Icons.rightCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "rightCircleTwoTone"
+          , view =
+                Icons.rightCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "PlayCircleTwoTone"
-          , view = Icons.playCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "playCircleTwoTone"
+          , view =
+                Icons.playCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "UpSquareTwoTone"
-          , view = Icons.upSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "upSquareTwoTone"
+          , view =
+                Icons.upSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "DownSquareTwoTone"
-          , view = Icons.downSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "downSquareTwoTone"
+          , view =
+                Icons.downSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "LeftSquareTwoTone"
-          , view = Icons.leftSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "leftSquareTwoTone"
+          , view =
+                Icons.leftSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "RightSquareTwoTone"
-          , view = Icons.rightSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "rightSquareTwoTone"
+          , view =
+                Icons.rightSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }
@@ -327,171 +345,201 @@ suggestion : Category msg
 suggestion =
     { name = "Suggested Icons"
     , outlined =
-        [ { name = "QuestionOutlined"
+        [ { name = "questionOutlined"
           , view = Icons.questionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "QuestionCircleOutlined"
+        , { name = "questionCircleOutlined"
           , view = Icons.questionCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlusOutlined"
+        , { name = "plusOutlined"
           , view = Icons.plusOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlusCircleOutlined"
+        , { name = "plusCircleOutlined"
           , view = Icons.plusCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PauseOutlined"
+        , { name = "pauseOutlined"
           , view = Icons.pauseOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PauseCircleOutlined"
+        , { name = "pauseCircleOutlined"
           , view = Icons.pauseCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MinusOutlined"
+        , { name = "minusOutlined"
           , view = Icons.minusOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MinusCircleOutlined"
+        , { name = "minusCircleOutlined"
           , view = Icons.minusCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlusSquareOutlined"
+        , { name = "plusSquareOutlined"
           , view = Icons.plusSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MinusSquareOutlined"
+        , { name = "minusSquareOutlined"
           , view = Icons.minusSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InfoOutlined"
+        , { name = "infoOutlined"
           , view = Icons.infoOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InfoCircleOutlined"
+        , { name = "infoCircleOutlined"
           , view = Icons.infoCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExclamationOutlined"
+        , { name = "exclamationOutlined"
           , view = Icons.exclamationOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExclamationCircleOutlined"
+        , { name = "exclamationCircleOutlined"
           , view = Icons.exclamationCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloseOutlined"
+        , { name = "closeOutlined"
           , view = Icons.closeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloseCircleOutlined"
+        , { name = "closeCircleOutlined"
           , view = Icons.closeCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloseSquareOutlined"
+        , { name = "closeSquareOutlined"
           , view = Icons.closeSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CheckOutlined"
+        , { name = "checkOutlined"
           , view = Icons.checkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CheckCircleOutlined"
+        , { name = "checkCircleOutlined"
           , view = Icons.checkCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CheckSquareOutlined"
+        , { name = "checkSquareOutlined"
           , view = Icons.checkSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ClockCircleOutlined"
+        , { name = "clockCircleOutlined"
           , view = Icons.clockCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WarningOutlined"
+        , { name = "warningOutlined"
           , view = Icons.warningOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IssuesCloseOutlined"
+        , { name = "issuesCloseOutlined"
           , view = Icons.issuesCloseOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StopOutlined"
+        , { name = "stopOutlined"
           , view = Icons.stopOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "QuestionCircleFilled"
+        [ { name = "questionCircleFilled"
           , view = Icons.questionCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlusCircleFilled"
+        , { name = "plusCircleFilled"
           , view = Icons.plusCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PauseCircleFilled"
+        , { name = "pauseCircleFilled"
           , view = Icons.pauseCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MinusCircleFilled"
+        , { name = "minusCircleFilled"
           , view = Icons.minusCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlusSquareFilled"
+        , { name = "plusSquareFilled"
           , view = Icons.plusSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MinusSquareFilled"
+        , { name = "minusSquareFilled"
           , view = Icons.minusSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InfoCircleFilled"
+        , { name = "infoCircleFilled"
           , view = Icons.infoCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExclamationCircleFilled"
+        , { name = "exclamationCircleFilled"
           , view = Icons.exclamationCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloseCircleFilled"
+        , { name = "closeCircleFilled"
           , view = Icons.closeCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloseSquareFilled"
+        , { name = "closeSquareFilled"
           , view = Icons.closeSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CheckCircleFilled"
+        , { name = "checkCircleFilled"
           , view = Icons.checkCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CheckSquareFilled"
+        , { name = "checkSquareFilled"
           , view = Icons.checkSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ClockCircleFilled"
+        , { name = "clockCircleFilled"
           , view = Icons.clockCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WarningFilled"
+        , { name = "warningFilled"
           , view = Icons.warningFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StopFilled"
+        , { name = "stopFilled"
           , view = Icons.stopFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "QuestionCircleTwoTone"
-          , view = Icons.questionCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "questionCircleTwoTone"
+          , view =
+                Icons.questionCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "PlusCircleTwoTone"
-          , view = Icons.plusCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "plusCircleTwoTone"
+          , view =
+                Icons.plusCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "PauseCircleTwoTone"
-          , view = Icons.pauseCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "pauseCircleTwoTone"
+          , view =
+                Icons.pauseCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "MinusCircleTwoTone"
-          , view = Icons.minusCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "minusCircleTwoTone"
+          , view =
+                Icons.minusCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "PlusSquareTwoTone"
-          , view = Icons.plusSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "plusSquareTwoTone"
+          , view =
+                Icons.plusSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "MinusSquareTwoTone"
-          , view = Icons.minusSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "minusSquareTwoTone"
+          , view =
+                Icons.minusSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "InfoCircleTwoTone"
-          , view = Icons.infoCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "infoCircleTwoTone"
+          , view =
+                Icons.infoCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "ExclamationCircleTwoTone"
-          , view = Icons.exclamationCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "exclamationCircleTwoTone"
+          , view =
+                Icons.exclamationCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "CloseCircleTwoTone"
-          , view = Icons.closeCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "closeCircleTwoTone"
+          , view =
+                Icons.closeCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "CloseSquareTwoTone"
-          , view = Icons.closeSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "closeSquareTwoTone"
+          , view =
+                Icons.closeSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "CheckCircleTwoTone"
-          , view = Icons.checkCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "checkCircleTwoTone"
+          , view =
+                Icons.checkCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "CheckSquareTwoTone"
-          , view = Icons.checkSquareTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "checkSquareTwoTone"
+          , view =
+                Icons.checkSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "ClockCircleTwoTone"
-          , view = Icons.clockCircleTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "clockCircleTwoTone"
+          , view =
+                Icons.clockCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "WarningTwoTone"
-          , view = Icons.warningTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "warningTwoTone"
+          , view =
+                Icons.warningTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "StopTwoTone"
-          , view = Icons.stopTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "stopTwoTone"
+          , view =
+                Icons.stopTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }
@@ -501,144 +549,156 @@ editor : Category msg
 editor =
     { name = "Editor Icons"
     , outlined =
-        [ { name = "EditOutlined"
+        [ { name = "editOutlined"
           , view = Icons.editOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FormOutlined"
+        , { name = "formOutlined"
           , view = Icons.formOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CopyOutlined"
+        , { name = "copyOutlined"
           , view = Icons.copyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ScissorOutlined"
+        , { name = "scissorOutlined"
           , view = Icons.scissorOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeleteOutlined"
+        , { name = "deleteOutlined"
           , view = Icons.deleteOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SnippetsOutlined"
+        , { name = "snippetsOutlined"
           , view = Icons.snippetsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DiffOutlined"
+        , { name = "diffOutlined"
           , view = Icons.diffOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HighlightOutlined"
+        , { name = "highlightOutlined"
           , view = Icons.highlightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlignCenterOutlined"
+        , { name = "alignCenterOutlined"
           , view = Icons.alignCenterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlignLeftOutlined"
+        , { name = "alignLeftOutlined"
           , view = Icons.alignLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlignRightOutlined"
+        , { name = "alignRightOutlined"
           , view = Icons.alignRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BgColorsOutlined"
+        , { name = "bgColorsOutlined"
           , view = Icons.bgColorsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BoldOutlined"
+        , { name = "boldOutlined"
           , view = Icons.boldOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ItalicOutlined"
+        , { name = "italicOutlined"
           , view = Icons.italicOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UnderlineOutlined"
+        , { name = "underlineOutlined"
           , view = Icons.underlineOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StrikethroughOutlined"
+        , { name = "strikethroughOutlined"
           , view = Icons.strikethroughOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedoOutlined"
+        , { name = "redoOutlined"
           , view = Icons.redoOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UndoOutlined"
+        , { name = "undoOutlined"
           , view = Icons.undoOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ZoomInOutlined"
+        , { name = "zoomInOutlined"
           , view = Icons.zoomInOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ZoomOutOutlined"
+        , { name = "zoomOutOutlined"
           , view = Icons.zoomOutOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FontColorsOutlined"
+        , { name = "fontColorsOutlined"
           , view = Icons.fontColorsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FontSizeOutlined"
+        , { name = "fontSizeOutlined"
           , view = Icons.fontSizeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LineHeightOutlined"
+        , { name = "lineHeightOutlined"
           , view = Icons.lineHeightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DashOutlined"
+        , { name = "dashOutlined"
           , view = Icons.dashOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SmallDashOutlined"
+        , { name = "smallDashOutlined"
           , view = Icons.smallDashOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SortAscendingOutlined"
+        , { name = "sortAscendingOutlined"
           , view = Icons.sortAscendingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SortDescendingOutlined"
+        , { name = "sortDescendingOutlined"
           , view = Icons.sortDescendingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DragOutlined"
+        , { name = "dragOutlined"
           , view = Icons.dragOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "OrderedListOutlined"
+        , { name = "orderedListOutlined"
           , view = Icons.orderedListOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UnorderedListOutlined"
+        , { name = "unorderedListOutlined"
           , view = Icons.unorderedListOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadiusSettingOutlined"
+        , { name = "radiusSettingOutlined"
           , view = Icons.radiusSettingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ColumnWidthOutlined"
+        , { name = "columnWidthOutlined"
           , view = Icons.columnWidthOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ColumnHeightOutlined"
+        , { name = "columnHeightOutlined"
           , view = Icons.columnHeightOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "EditFilled"
+        [ { name = "editFilled"
           , view = Icons.editFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CopyFilled"
+        , { name = "copyFilled"
           , view = Icons.copyFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeleteFilled"
+        , { name = "deleteFilled"
           , view = Icons.deleteFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SnippetsFilled"
+        , { name = "snippetsFilled"
           , view = Icons.snippetsFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DiffFilled"
+        , { name = "diffFilled"
           , view = Icons.diffFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HighlightFilled"
+        , { name = "highlightFilled"
           , view = Icons.highlightFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "EditTwoTone"
-          , view = Icons.editTwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "editTwoTone"
+          , view =
+                Icons.editTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "CopyTwoTone"
-          , view = Icons.copyTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "copyTwoTone"
+          , view =
+                Icons.copyTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "DeleteTwoTone"
-          , view = Icons.deleteTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "deleteTwoTone"
+          , view =
+                Icons.deleteTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "SnippetsTwoTone"
-          , view = Icons.snippetsTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "snippetsTwoTone"
+          , view =
+                Icons.snippetsTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "DiffTwoTone"
-          , view = Icons.diffTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "diffTwoTone"
+          , view =
+                Icons.diffTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "HighlightTwoTone"
-          , view = Icons.highlightTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "highlightTwoTone"
+          , view =
+                Icons.highlightTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }
@@ -648,72 +708,80 @@ data : Category msg
 data =
     { name = "Data Icons"
     , outlined =
-        [ { name = "AreaChartOutlined"
+        [ { name = "areaChartOutlined"
           , view = Icons.areaChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PieChartOutlined"
+        , { name = "pieChartOutlined"
           , view = Icons.pieChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BarChartOutlined"
+        , { name = "barChartOutlined"
           , view = Icons.barChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DotChartOutlined"
+        , { name = "dotChartOutlined"
           , view = Icons.dotChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LineChartOutlined"
+        , { name = "lineChartOutlined"
           , view = Icons.lineChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RadarChartOutlined"
+        , { name = "radarChartOutlined"
           , view = Icons.radarChartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HeatMapOutlined"
+        , { name = "heatMapOutlined"
           , view = Icons.heatMapOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FallOutlined"
+        , { name = "fallOutlined"
           , view = Icons.fallOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RiseOutlined"
+        , { name = "riseOutlined"
           , view = Icons.riseOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StockOutlined"
+        , { name = "stockOutlined"
           , view = Icons.stockOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BoxPlotOutlined"
+        , { name = "boxPlotOutlined"
           , view = Icons.boxPlotOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FundOutlined"
+        , { name = "fundOutlined"
           , view = Icons.fundOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlidersOutlined"
+        , { name = "slidersOutlined"
           , view = Icons.slidersOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "PieChartFilled"
+        [ { name = "pieChartFilled"
           , view = Icons.pieChartFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BoxPlotFilled"
+        , { name = "boxPlotFilled"
           , view = Icons.boxPlotFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FundFilled"
+        , { name = "fundFilled"
           , view = Icons.fundFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlidersFilled"
+        , { name = "slidersFilled"
           , view = Icons.slidersFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "PieChartTwoTone"
-          , view = Icons.pieChartTwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "pieChartTwoTone"
+          , view =
+                Icons.pieChartTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "BoxPlotTwoTone"
-          , view = Icons.boxPlotTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "boxPlotTwoTone"
+          , view =
+                Icons.boxPlotTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "FundTwoTone"
-          , view = Icons.fundTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "fundTwoTone"
+          , view =
+                Icons.fundTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
-        , { name = "SlidersTwoTone"
-          , view = Icons.slidersTwoTone [ width "36", height "36", fill "currentColor" ]
+        , { name = "slidersTwoTone"
+          , view =
+                Icons.slidersTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }
@@ -723,234 +791,236 @@ logo : Category msg
 logo =
     { name = "Brand and Logos"
     , outlined =
-        [ { name = "AndroidOutlined"
+        [ { name = "androidOutlined"
           , view = Icons.androidOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AppleOutlined"
+        , { name = "appleOutlined"
           , view = Icons.appleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WindowsOutlined"
+        , { name = "windowsOutlined"
           , view = Icons.windowsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IeOutlined"
+        , { name = "ieOutlined"
           , view = Icons.ieOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ChromeOutlined"
+        , { name = "chromeOutlined"
           , view = Icons.chromeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GithubOutlined"
+        , { name = "githubOutlined"
           , view = Icons.githubOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AliwangwangOutlined"
+        , { name = "aliwangwangOutlined"
           , view = Icons.aliwangwangOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DingdingOutlined"
+        , { name = "dingdingOutlined"
           , view = Icons.dingdingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WeiboSquareOutlined"
+        , { name = "weiboSquareOutlined"
           , view = Icons.weiboSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WeiboCircleOutlined"
+        , { name = "weiboCircleOutlined"
           , view = Icons.weiboCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TaobaoCircleOutlined"
+        , { name = "taobaoCircleOutlined"
           , view = Icons.taobaoCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "Html5Outlined"
+        , { name = "html5Outlined"
           , view = Icons.html5Outlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WeiboOutlined"
+        , { name = "weiboOutlined"
           , view = Icons.weiboOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TwitterOutlined"
+        , { name = "twitterOutlined"
           , view = Icons.twitterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WechatOutlined"
+        , { name = "wechatOutlined"
           , view = Icons.wechatOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YoutubeOutlined"
+        , { name = "youtubeOutlined"
           , view = Icons.youtubeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlipayCircleOutlined"
+        , { name = "alipayCircleOutlined"
           , view = Icons.alipayCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TaobaoOutlined"
+        , { name = "taobaoOutlined"
           , view = Icons.taobaoOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SkypeOutlined"
+        , { name = "skypeOutlined"
           , view = Icons.skypeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "QqOutlined"
+        , { name = "qqOutlined"
           , view = Icons.qqOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MediumWorkmarkOutlined"
+        , { name = "mediumWorkmarkOutlined"
           , view = Icons.mediumWorkmarkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GitlabOutlined"
+        , { name = "gitlabOutlined"
           , view = Icons.gitlabOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MediumOutlined"
+        , { name = "mediumOutlined"
           , view = Icons.mediumOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LinkedinOutlined"
+        , { name = "linkedinOutlined"
           , view = Icons.linkedinOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GooglePlusOutlined"
+        , { name = "googlePlusOutlined"
           , view = Icons.googlePlusOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DropboxOutlined"
+        , { name = "dropboxOutlined"
           , view = Icons.dropboxOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FacebookOutlined"
+        , { name = "facebookOutlined"
           , view = Icons.facebookOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodepenOutlined"
+        , { name = "codepenOutlined"
           , view = Icons.codepenOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodeSandboxOutlined"
+        , { name = "codeSandboxOutlined"
           , view = Icons.codeSandboxOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AmazonOutlined"
+        , { name = "amazonOutlined"
           , view = Icons.amazonOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoogleOutlined"
+        , { name = "googleOutlined"
           , view = Icons.googleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodepenCircleOutlined"
+        , { name = "codepenCircleOutlined"
           , view = Icons.codepenCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlipayOutlined"
+        , { name = "alipayOutlined"
           , view = Icons.alipayOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AntDesignOutlined"
+        , { name = "antDesignOutlined"
           , view = Icons.antDesignOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AntCloudOutlined"
+        , { name = "antCloudOutlined"
           , view = Icons.antCloudOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AliyunOutlined"
+        , { name = "aliyunOutlined"
           , view = Icons.aliyunOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ZhihuOutlined"
+        , { name = "zhihuOutlined"
           , view = Icons.zhihuOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlackOutlined"
+        , { name = "slackOutlined"
           , view = Icons.slackOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlackSquareOutlined"
+        , { name = "slackSquareOutlined"
           , view = Icons.slackSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BehanceOutlined"
+        , { name = "behanceOutlined"
           , view = Icons.behanceOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BehanceSquareOutlined"
+        , { name = "behanceSquareOutlined"
           , view = Icons.behanceSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DribbbleOutlined"
+        , { name = "dribbbleOutlined"
           , view = Icons.dribbbleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DribbbleSquareOutlined"
+        , { name = "dribbbleSquareOutlined"
           , view = Icons.dribbbleSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InstagramOutlined"
+        , { name = "instagramOutlined"
           , view = Icons.instagramOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YuqueOutlined"
+        , { name = "yuqueOutlined"
           , view = Icons.yuqueOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlibabaOutlined"
+        , { name = "alibabaOutlined"
           , view = Icons.alibabaOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YahooOutlined"
+        , { name = "yahooOutlined"
           , view = Icons.yahooOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedditOutlined"
+        , { name = "redditOutlined"
           , view = Icons.redditOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SketchOutlined"
+        , { name = "sketchOutlined"
           , view = Icons.sketchOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "AndroidFilled"
+        [ { name = "androidFilled"
           , view = Icons.androidFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AppleFilled"
+        , { name = "appleFilled"
           , view = Icons.appleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WindowsFilled"
+        , { name = "windowsFilled"
           , view = Icons.windowsFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ChromeFilled"
+        , { name = "chromeFilled"
           , view = Icons.chromeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GithubFilled"
+        , { name = "githubFilled"
           , view = Icons.githubFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AliwangwangFilled"
+        , { name = "aliwangwangFilled"
           , view = Icons.aliwangwangFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WeiboSquareFilled"
+        , { name = "weiboSquareFilled"
           , view = Icons.weiboSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WeiboCircleFilled"
+        , { name = "weiboCircleFilled"
           , view = Icons.weiboCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TaobaoCircleFilled"
+        , { name = "taobaoCircleFilled"
           , view = Icons.taobaoCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "Html5Filled"
+        , { name = "html5Filled"
           , view = Icons.html5Filled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WechatFilled"
+        , { name = "wechatFilled"
           , view = Icons.wechatFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YoutubeFilled"
+        , { name = "youtubeFilled"
           , view = Icons.youtubeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlipayCircleFilled"
+        , { name = "alipayCircleFilled"
           , view = Icons.alipayCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SkypeFilled"
+        , { name = "skypeFilled"
           , view = Icons.skypeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GitlabFilled"
+        , { name = "gitlabFilled"
           , view = Icons.gitlabFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LinkedinFilled"
+        , { name = "linkedinFilled"
           , view = Icons.linkedinFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FacebookFilled"
+        , { name = "facebookFilled"
           , view = Icons.facebookFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodeSandboxCircleFilled"
+        , { name = "codeSandboxCircleFilled"
           , view = Icons.codeSandboxCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodepenCircleFilled"
+        , { name = "codepenCircleFilled"
           , view = Icons.codepenCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlackSquareFilled"
+        , { name = "slackSquareFilled"
           , view = Icons.slackSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BehanceSquareFilled"
+        , { name = "behanceSquareFilled"
           , view = Icons.behanceSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DribbbleSquareFilled"
+        , { name = "dribbbleSquareFilled"
           , view = Icons.dribbbleSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InstagramFilled"
+        , { name = "instagramFilled"
           , view = Icons.instagramFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YuqueFilled"
+        , { name = "yuqueFilled"
           , view = Icons.yuqueFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "YahooFilled"
+        , { name = "yahooFilled"
           , view = Icons.yahooFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "Html5TwoTone"
-          , view = Icons.html5TwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "html5TwoTone"
+          , view =
+                Icons.html5TwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }
@@ -960,1515 +1030,1745 @@ other : Category msg
 other =
     { name = "Application Icons"
     , outlined =
-        [ { name = "AccountBookOutlined"
+        [ { name = "accountBookOutlined"
           , view = Icons.accountBookOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AimOutlined"
+        , { name = "aimOutlined"
           , view = Icons.aimOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlertOutlined"
+        , { name = "alertOutlined"
           , view = Icons.alertOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ApartmentOutlined"
+        , { name = "apartmentOutlined"
           , view = Icons.apartmentOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ApiOutlined"
+        , { name = "apiOutlined"
           , view = Icons.apiOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AppstoreAddOutlined"
+        , { name = "appstoreAddOutlined"
           , view = Icons.appstoreAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AppstoreOutlined"
+        , { name = "appstoreOutlined"
           , view = Icons.appstoreOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AudioOutlined"
+        , { name = "audioOutlined"
           , view = Icons.audioOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AudioMutedOutlined"
+        , { name = "audioMutedOutlined"
           , view = Icons.audioMutedOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AuditOutlined"
+        , { name = "auditOutlined"
           , view = Icons.auditOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BankOutlined"
+        , { name = "bankOutlined"
           , view = Icons.bankOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BarcodeOutlined"
+        , { name = "barcodeOutlined"
           , view = Icons.barcodeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BarsOutlined"
+        , { name = "barsOutlined"
           , view = Icons.barsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BellOutlined"
+        , { name = "bellOutlined"
           , view = Icons.bellOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BlockOutlined"
+        , { name = "blockOutlined"
           , view = Icons.blockOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BookOutlined"
+        , { name = "bookOutlined"
           , view = Icons.bookOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderOutlined"
+        , { name = "borderOutlined"
           , view = Icons.borderOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BorderlessTableOutlined"
+        , { name = "borderlessTableOutlined"
           , view = Icons.borderlessTableOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BranchesOutlined"
+        , { name = "branchesOutlined"
           , view = Icons.branchesOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BugOutlined"
+        , { name = "bugOutlined"
           , view = Icons.bugOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BuildOutlined"
+        , { name = "buildOutlined"
           , view = Icons.buildOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BulbOutlined"
+        , { name = "bulbOutlined"
           , view = Icons.bulbOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CalculatorOutlined"
+        , { name = "calculatorOutlined"
           , view = Icons.calculatorOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CalendarOutlined"
+        , { name = "calendarOutlined"
           , view = Icons.calendarOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CameraOutlined"
+        , { name = "cameraOutlined"
           , view = Icons.cameraOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CarOutlined"
+        , { name = "carOutlined"
           , view = Icons.carOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CarryOutOutlined"
+        , { name = "carryOutOutlined"
           , view = Icons.carryOutOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CiCircleOutlined"
+        , { name = "ciCircleOutlined"
           , view = Icons.ciCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CiOutlined"
+        , { name = "ciOutlined"
           , view = Icons.ciOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ClearOutlined"
+        , { name = "clearOutlined"
           , view = Icons.clearOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudDownloadOutlined"
+        , { name = "cloudDownloadOutlined"
           , view = Icons.cloudDownloadOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudOutlined"
+        , { name = "cloudOutlined"
           , view = Icons.cloudOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudServerOutlined"
+        , { name = "cloudServerOutlined"
           , view = Icons.cloudServerOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudSyncOutlined"
+        , { name = "cloudSyncOutlined"
           , view = Icons.cloudSyncOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudUploadOutlined"
+        , { name = "cloudUploadOutlined"
           , view = Icons.cloudUploadOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ClusterOutlined"
+        , { name = "clusterOutlined"
           , view = Icons.clusterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodeOutlined"
+        , { name = "codeOutlined"
           , view = Icons.codeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CoffeeOutlined"
+        , { name = "coffeeOutlined"
           , view = Icons.coffeeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CommentOutlined"
+        , { name = "commentOutlined"
           , view = Icons.commentOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CompassOutlined"
+        , { name = "compassOutlined"
           , view = Icons.compassOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CompressOutlined"
+        , { name = "compressOutlined"
           , view = Icons.compressOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ConsoleSqlOutlined"
+        , { name = "consoleSqlOutlined"
           , view = Icons.consoleSqlOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ContactsOutlined"
+        , { name = "contactsOutlined"
           , view = Icons.contactsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ContainerOutlined"
+        , { name = "containerOutlined"
           , view = Icons.containerOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ControlOutlined"
+        , { name = "controlOutlined"
           , view = Icons.controlOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CopyrightCircleOutlined"
+        , { name = "copyrightCircleOutlined"
           , view = Icons.copyrightCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CopyrightOutlined"
+        , { name = "copyrightOutlined"
           , view = Icons.copyrightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CreditCardOutlined"
+        , { name = "creditCardOutlined"
           , view = Icons.creditCardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CrownOutlined"
+        , { name = "crownOutlined"
           , view = Icons.crownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CustomerServiceOutlined"
+        , { name = "customerServiceOutlined"
           , view = Icons.customerServiceOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DashboardOutlined"
+        , { name = "dashboardOutlined"
           , view = Icons.dashboardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DatabaseOutlined"
+        , { name = "databaseOutlined"
           , view = Icons.databaseOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeleteColumnOutlined"
+        , { name = "deleteColumnOutlined"
           , view = Icons.deleteColumnOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeleteRowOutlined"
+        , { name = "deleteRowOutlined"
           , view = Icons.deleteRowOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeliveredProcedureOutlined"
+        , { name = "deliveredProcedureOutlined"
           , view = Icons.deliveredProcedureOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DeploymentUnitOutlined"
+        , { name = "deploymentUnitOutlined"
           , view = Icons.deploymentUnitOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DesktopOutlined"
+        , { name = "desktopOutlined"
           , view = Icons.desktopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DingtalkOutlined"
+        , { name = "dingtalkOutlined"
           , view = Icons.dingtalkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DisconnectOutlined"
+        , { name = "disconnectOutlined"
           , view = Icons.disconnectOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DislikeOutlined"
+        , { name = "dislikeOutlined"
           , view = Icons.dislikeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DollarCircleOutlined"
+        , { name = "dollarCircleOutlined"
           , view = Icons.dollarCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DollarOutlined"
+        , { name = "dollarOutlined"
           , view = Icons.dollarOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DownloadOutlined"
+        , { name = "downloadOutlined"
           , view = Icons.downloadOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EllipsisOutlined"
+        , { name = "ellipsisOutlined"
           , view = Icons.ellipsisOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EnvironmentOutlined"
+        , { name = "environmentOutlined"
           , view = Icons.environmentOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EuroCircleOutlined"
+        , { name = "euroCircleOutlined"
           , view = Icons.euroCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EuroOutlined"
+        , { name = "euroOutlined"
           , view = Icons.euroOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExceptionOutlined"
+        , { name = "exceptionOutlined"
           , view = Icons.exceptionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExpandAltOutlined"
+        , { name = "expandAltOutlined"
           , view = Icons.expandAltOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExpandOutlined"
+        , { name = "expandOutlined"
           , view = Icons.expandOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExperimentOutlined"
+        , { name = "experimentOutlined"
           , view = Icons.experimentOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExportOutlined"
+        , { name = "exportOutlined"
           , view = Icons.exportOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EyeOutlined"
+        , { name = "eyeOutlined"
           , view = Icons.eyeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EyeInvisibleOutlined"
+        , { name = "eyeInvisibleOutlined"
           , view = Icons.eyeInvisibleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FieldBinaryOutlined"
+        , { name = "fieldBinaryOutlined"
           , view = Icons.fieldBinaryOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FieldNumberOutlined"
+        , { name = "fieldNumberOutlined"
           , view = Icons.fieldNumberOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FieldStringOutlined"
+        , { name = "fieldStringOutlined"
           , view = Icons.fieldStringOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FieldTimeOutlined"
+        , { name = "fieldTimeOutlined"
           , view = Icons.fieldTimeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileAddOutlined"
+        , { name = "fileAddOutlined"
           , view = Icons.fileAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileDoneOutlined"
+        , { name = "fileDoneOutlined"
           , view = Icons.fileDoneOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileExcelOutlined"
+        , { name = "fileExcelOutlined"
           , view = Icons.fileExcelOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileExclamationOutlined"
+        , { name = "fileExclamationOutlined"
           , view = Icons.fileExclamationOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileOutlined"
+        , { name = "fileOutlined"
           , view = Icons.fileOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileGifOutlined"
+        , { name = "fileGifOutlined"
           , view = Icons.fileGifOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileImageOutlined"
+        , { name = "fileImageOutlined"
           , view = Icons.fileImageOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileJpgOutlined"
+        , { name = "fileJpgOutlined"
           , view = Icons.fileJpgOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileMarkdownOutlined"
+        , { name = "fileMarkdownOutlined"
           , view = Icons.fileMarkdownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilePdfOutlined"
+        , { name = "filePdfOutlined"
           , view = Icons.filePdfOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilePptOutlined"
+        , { name = "filePptOutlined"
           , view = Icons.filePptOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileProtectOutlined"
+        , { name = "fileProtectOutlined"
           , view = Icons.fileProtectOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileSearchOutlined"
+        , { name = "fileSearchOutlined"
           , view = Icons.fileSearchOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileSyncOutlined"
+        , { name = "fileSyncOutlined"
           , view = Icons.fileSyncOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileTextOutlined"
+        , { name = "fileTextOutlined"
           , view = Icons.fileTextOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileUnknownOutlined"
+        , { name = "fileUnknownOutlined"
           , view = Icons.fileUnknownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileWordOutlined"
+        , { name = "fileWordOutlined"
           , view = Icons.fileWordOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileZipOutlined"
+        , { name = "fileZipOutlined"
           , view = Icons.fileZipOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilterOutlined"
+        , { name = "filterOutlined"
           , view = Icons.filterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FireOutlined"
+        , { name = "fireOutlined"
           , view = Icons.fireOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FlagOutlined"
+        , { name = "flagOutlined"
           , view = Icons.flagOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderAddOutlined"
+        , { name = "folderAddOutlined"
           , view = Icons.folderAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderOutlined"
+        , { name = "folderOutlined"
           , view = Icons.folderOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderOpenOutlined"
+        , { name = "folderOpenOutlined"
           , view = Icons.folderOpenOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderViewOutlined"
+        , { name = "folderViewOutlined"
           , view = Icons.folderViewOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ForkOutlined"
+        , { name = "forkOutlined"
           , view = Icons.forkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FormatPainterOutlined"
+        , { name = "formatPainterOutlined"
           , view = Icons.formatPainterOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FrownOutlined"
+        , { name = "frownOutlined"
           , view = Icons.frownOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FunctionOutlined"
+        , { name = "functionOutlined"
           , view = Icons.functionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FundProjectionScreenOutlined"
+        , { name = "fundProjectionScreenOutlined"
           , view = Icons.fundProjectionScreenOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FundViewOutlined"
+        , { name = "fundViewOutlined"
           , view = Icons.fundViewOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FunnelPlotOutlined"
+        , { name = "funnelPlotOutlined"
           , view = Icons.funnelPlotOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GatewayOutlined"
+        , { name = "gatewayOutlined"
           , view = Icons.gatewayOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GifOutlined"
+        , { name = "gifOutlined"
           , view = Icons.gifOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GiftOutlined"
+        , { name = "giftOutlined"
           , view = Icons.giftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GlobalOutlined"
+        , { name = "globalOutlined"
           , view = Icons.globalOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoldOutlined"
+        , { name = "goldOutlined"
           , view = Icons.goldOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GroupOutlined"
+        , { name = "groupOutlined"
           , view = Icons.groupOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HddOutlined"
+        , { name = "hddOutlined"
           , view = Icons.hddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HeartOutlined"
+        , { name = "heartOutlined"
           , view = Icons.heartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HistoryOutlined"
+        , { name = "historyOutlined"
           , view = Icons.historyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HomeOutlined"
+        , { name = "homeOutlined"
           , view = Icons.homeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HourglassOutlined"
+        , { name = "hourglassOutlined"
           , view = Icons.hourglassOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IdcardOutlined"
+        , { name = "idcardOutlined"
           , view = Icons.idcardOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ImportOutlined"
+        , { name = "importOutlined"
           , view = Icons.importOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InboxOutlined"
+        , { name = "inboxOutlined"
           , view = Icons.inboxOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsertRowAboveOutlined"
+        , { name = "insertRowAboveOutlined"
           , view = Icons.insertRowAboveOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsertRowBelowOutlined"
+        , { name = "insertRowBelowOutlined"
           , view = Icons.insertRowBelowOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsertRowLeftOutlined"
+        , { name = "insertRowLeftOutlined"
           , view = Icons.insertRowLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsertRowRightOutlined"
+        , { name = "insertRowRightOutlined"
           , view = Icons.insertRowRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsuranceOutlined"
+        , { name = "insuranceOutlined"
           , view = Icons.insuranceOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InteractionOutlined"
+        , { name = "interactionOutlined"
           , view = Icons.interactionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "KeyOutlined"
+        , { name = "keyOutlined"
           , view = Icons.keyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LaptopOutlined"
+        , { name = "laptopOutlined"
           , view = Icons.laptopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LayoutOutlined"
+        , { name = "layoutOutlined"
           , view = Icons.layoutOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LikeOutlined"
+        , { name = "likeOutlined"
           , view = Icons.likeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LineOutlined"
+        , { name = "lineOutlined"
           , view = Icons.lineOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LinkOutlined"
+        , { name = "linkOutlined"
           , view = Icons.linkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "Loading3QuartersOutlined"
+        , { name = "loading3QuartersOutlined"
           , view = Icons.loading3QuartersOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LoadingOutlined"
+        , { name = "loadingOutlined"
           , view = Icons.loadingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LockOutlined"
+        , { name = "lockOutlined"
           , view = Icons.lockOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MacCommandOutlined"
+        , { name = "macCommandOutlined"
           , view = Icons.macCommandOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MailOutlined"
+        , { name = "mailOutlined"
           , view = Icons.mailOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ManOutlined"
+        , { name = "manOutlined"
           , view = Icons.manOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MedicineBoxOutlined"
+        , { name = "medicineBoxOutlined"
           , view = Icons.medicineBoxOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MehOutlined"
+        , { name = "mehOutlined"
           , view = Icons.mehOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MenuOutlined"
+        , { name = "menuOutlined"
           , view = Icons.menuOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MergeCellsOutlined"
+        , { name = "mergeCellsOutlined"
           , view = Icons.mergeCellsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MessageOutlined"
+        , { name = "messageOutlined"
           , view = Icons.messageOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MobileOutlined"
+        , { name = "mobileOutlined"
           , view = Icons.mobileOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MoneyCollectOutlined"
+        , { name = "moneyCollectOutlined"
           , view = Icons.moneyCollectOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MonitorOutlined"
+        , { name = "monitorOutlined"
           , view = Icons.monitorOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MoreOutlined"
+        , { name = "moreOutlined"
           , view = Icons.moreOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NodeCollapseOutlined"
+        , { name = "nodeCollapseOutlined"
           , view = Icons.nodeCollapseOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NodeExpandOutlined"
+        , { name = "nodeExpandOutlined"
           , view = Icons.nodeExpandOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NodeIndexOutlined"
+        , { name = "nodeIndexOutlined"
           , view = Icons.nodeIndexOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NotificationOutlined"
+        , { name = "notificationOutlined"
           , view = Icons.notificationOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NumberOutlined"
+        , { name = "numberOutlined"
           , view = Icons.numberOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "OneToOneOutlined"
+        , { name = "oneToOneOutlined"
           , view = Icons.oneToOneOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PaperClipOutlined"
+        , { name = "paperClipOutlined"
           , view = Icons.paperClipOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PartitionOutlined"
+        , { name = "partitionOutlined"
           , view = Icons.partitionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PayCircleOutlined"
+        , { name = "payCircleOutlined"
           , view = Icons.payCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PercentageOutlined"
+        , { name = "percentageOutlined"
           , view = Icons.percentageOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PhoneOutlined"
+        , { name = "phoneOutlined"
           , view = Icons.phoneOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PictureOutlined"
+        , { name = "pictureOutlined"
           , view = Icons.pictureOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlaySquareOutlined"
+        , { name = "playSquareOutlined"
           , view = Icons.playSquareOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PoundCircleOutlined"
+        , { name = "poundCircleOutlined"
           , view = Icons.poundCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PoundOutlined"
+        , { name = "poundOutlined"
           , view = Icons.poundOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PoweroffOutlined"
+        , { name = "poweroffOutlined"
           , view = Icons.poweroffOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PrinterOutlined"
+        , { name = "printerOutlined"
           , view = Icons.printerOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ProfileOutlined"
+        , { name = "profileOutlined"
           , view = Icons.profileOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ProjectOutlined"
+        , { name = "projectOutlined"
           , view = Icons.projectOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PropertySafetyOutlined"
+        , { name = "propertySafetyOutlined"
           , view = Icons.propertySafetyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PullRequestOutlined"
+        , { name = "pullRequestOutlined"
           , view = Icons.pullRequestOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PushpinOutlined"
+        , { name = "pushpinOutlined"
           , view = Icons.pushpinOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "QrcodeOutlined"
+        , { name = "qrcodeOutlined"
           , view = Icons.qrcodeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ReadOutlined"
+        , { name = "readOutlined"
           , view = Icons.readOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ReconciliationOutlined"
+        , { name = "reconciliationOutlined"
           , view = Icons.reconciliationOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedEnvelopeOutlined"
+        , { name = "redEnvelopeOutlined"
           , view = Icons.redEnvelopeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ReloadOutlined"
+        , { name = "reloadOutlined"
           , view = Icons.reloadOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RestOutlined"
+        , { name = "restOutlined"
           , view = Icons.restOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RobotOutlined"
+        , { name = "robotOutlined"
           , view = Icons.robotOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RocketOutlined"
+        , { name = "rocketOutlined"
           , view = Icons.rocketOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RotateLeftOutlined"
+        , { name = "rotateLeftOutlined"
           , view = Icons.rotateLeftOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RotateRightOutlined"
+        , { name = "rotateRightOutlined"
           , view = Icons.rotateRightOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SafetyCertificateOutlined"
+        , { name = "safetyCertificateOutlined"
           , view = Icons.safetyCertificateOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SafetyOutlined"
+        , { name = "safetyOutlined"
           , view = Icons.safetyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SaveOutlined"
+        , { name = "saveOutlined"
           , view = Icons.saveOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ScanOutlined"
+        , { name = "scanOutlined"
           , view = Icons.scanOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ScheduleOutlined"
+        , { name = "scheduleOutlined"
           , view = Icons.scheduleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SearchOutlined"
+        , { name = "searchOutlined"
           , view = Icons.searchOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SecurityScanOutlined"
+        , { name = "securityScanOutlined"
           , view = Icons.securityScanOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SelectOutlined"
+        , { name = "selectOutlined"
           , view = Icons.selectOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SendOutlined"
+        , { name = "sendOutlined"
           , view = Icons.sendOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SettingOutlined"
+        , { name = "settingOutlined"
           , view = Icons.settingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShakeOutlined"
+        , { name = "shakeOutlined"
           , view = Icons.shakeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShareAltOutlined"
+        , { name = "shareAltOutlined"
           , view = Icons.shareAltOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShopOutlined"
+        , { name = "shopOutlined"
           , view = Icons.shopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShoppingCartOutlined"
+        , { name = "shoppingCartOutlined"
           , view = Icons.shoppingCartOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShoppingOutlined"
+        , { name = "shoppingOutlined"
           , view = Icons.shoppingOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SisternodeOutlined"
+        , { name = "sisternodeOutlined"
           , view = Icons.sisternodeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SkinOutlined"
+        , { name = "skinOutlined"
           , view = Icons.skinOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SmileOutlined"
+        , { name = "smileOutlined"
           , view = Icons.smileOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SolutionOutlined"
+        , { name = "solutionOutlined"
           , view = Icons.solutionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SoundOutlined"
+        , { name = "soundOutlined"
           , view = Icons.soundOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SplitCellsOutlined"
+        , { name = "splitCellsOutlined"
           , view = Icons.splitCellsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StarOutlined"
+        , { name = "starOutlined"
           , view = Icons.starOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SubnodeOutlined"
+        , { name = "subnodeOutlined"
           , view = Icons.subnodeOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SwitcherOutlined"
+        , { name = "switcherOutlined"
           , view = Icons.switcherOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SyncOutlined"
+        , { name = "syncOutlined"
           , view = Icons.syncOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TableOutlined"
+        , { name = "tableOutlined"
           , view = Icons.tableOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TabletOutlined"
+        , { name = "tabletOutlined"
           , view = Icons.tabletOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TagOutlined"
+        , { name = "tagOutlined"
           , view = Icons.tagOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TagsOutlined"
+        , { name = "tagsOutlined"
           , view = Icons.tagsOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TeamOutlined"
+        , { name = "teamOutlined"
           , view = Icons.teamOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ThunderboltOutlined"
+        , { name = "thunderboltOutlined"
           , view = Icons.thunderboltOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ToTopOutlined"
+        , { name = "toTopOutlined"
           , view = Icons.toTopOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ToolOutlined"
+        , { name = "toolOutlined"
           , view = Icons.toolOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TrademarkCircleOutlined"
+        , { name = "trademarkCircleOutlined"
           , view = Icons.trademarkCircleOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TrademarkOutlined"
+        , { name = "trademarkOutlined"
           , view = Icons.trademarkOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TransactionOutlined"
+        , { name = "transactionOutlined"
           , view = Icons.transactionOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TranslationOutlined"
+        , { name = "translationOutlined"
           , view = Icons.translationOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TrophyOutlined"
+        , { name = "trophyOutlined"
           , view = Icons.trophyOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UngroupOutlined"
+        , { name = "ungroupOutlined"
           , view = Icons.ungroupOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UnlockOutlined"
+        , { name = "unlockOutlined"
           , view = Icons.unlockOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UploadOutlined"
+        , { name = "uploadOutlined"
           , view = Icons.uploadOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UsbOutlined"
+        , { name = "usbOutlined"
           , view = Icons.usbOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UserAddOutlined"
+        , { name = "userAddOutlined"
           , view = Icons.userAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UserDeleteOutlined"
+        , { name = "userDeleteOutlined"
           , view = Icons.userDeleteOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UserOutlined"
+        , { name = "userOutlined"
           , view = Icons.userOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UserSwitchOutlined"
+        , { name = "userSwitchOutlined"
           , view = Icons.userSwitchOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UsergroupAddOutlined"
+        , { name = "usergroupAddOutlined"
           , view = Icons.usergroupAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UsergroupDeleteOutlined"
+        , { name = "usergroupDeleteOutlined"
           , view = Icons.usergroupDeleteOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VerifiedOutlined"
+        , { name = "verifiedOutlined"
           , view = Icons.verifiedOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VideoCameraAddOutlined"
+        , { name = "videoCameraAddOutlined"
           , view = Icons.videoCameraAddOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VideoCameraOutlined"
+        , { name = "videoCameraOutlined"
           , view = Icons.videoCameraOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WalletOutlined"
+        , { name = "walletOutlined"
           , view = Icons.walletOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WhatsAppOutlined"
+        , { name = "whatsAppOutlined"
           , view = Icons.whatsAppOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WifiOutlined"
+        , { name = "wifiOutlined"
           , view = Icons.wifiOutlined [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WomanOutlined"
+        , { name = "womanOutlined"
           , view = Icons.womanOutlined [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , filled =
-        [ { name = "AccountBookFilled"
+        [ { name = "accountBookFilled"
           , view = Icons.accountBookFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlertFilled"
+        , { name = "alertFilled"
           , view = Icons.alertFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AlipaySquareFilled"
+        , { name = "alipaySquareFilled"
           , view = Icons.alipaySquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AmazonCircleFilled"
+        , { name = "amazonCircleFilled"
           , view = Icons.amazonCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AmazonSquareFilled"
+        , { name = "amazonSquareFilled"
           , view = Icons.amazonSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ApiFilled"
+        , { name = "apiFilled"
           , view = Icons.apiFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AppstoreFilled"
+        , { name = "appstoreFilled"
           , view = Icons.appstoreFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "AudioFilled"
+        , { name = "audioFilled"
           , view = Icons.audioFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BankFilled"
+        , { name = "bankFilled"
           , view = Icons.bankFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BehanceCircleFilled"
+        , { name = "behanceCircleFilled"
           , view = Icons.behanceCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BellFilled"
+        , { name = "bellFilled"
           , view = Icons.bellFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BookFilled"
+        , { name = "bookFilled"
           , view = Icons.bookFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BugFilled"
+        , { name = "bugFilled"
           , view = Icons.bugFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BuildFilled"
+        , { name = "buildFilled"
           , view = Icons.buildFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "BulbFilled"
+        , { name = "bulbFilled"
           , view = Icons.bulbFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CalculatorFilled"
+        , { name = "calculatorFilled"
           , view = Icons.calculatorFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CalendarFilled"
+        , { name = "calendarFilled"
           , view = Icons.calendarFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CameraFilled"
+        , { name = "cameraFilled"
           , view = Icons.cameraFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CarFilled"
+        , { name = "carFilled"
           , view = Icons.carFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CarryOutFilled"
+        , { name = "carryOutFilled"
           , view = Icons.carryOutFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CiCircleFilled"
+        , { name = "ciCircleFilled"
           , view = Icons.ciCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CloudFilled"
+        , { name = "cloudFilled"
           , view = Icons.cloudFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodeFilled"
+        , { name = "codeFilled"
           , view = Icons.codeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodeSandboxSquareFilled"
+        , { name = "codeSandboxSquareFilled"
           , view = Icons.codeSandboxSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CodepenSquareFilled"
+        , { name = "codepenSquareFilled"
           , view = Icons.codepenSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CompassFilled"
+        , { name = "compassFilled"
           , view = Icons.compassFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ContactsFilled"
+        , { name = "contactsFilled"
           , view = Icons.contactsFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ContainerFilled"
+        , { name = "containerFilled"
           , view = Icons.containerFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ControlFilled"
+        , { name = "controlFilled"
           , view = Icons.controlFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CopyrightCircleFilled"
+        , { name = "copyrightCircleFilled"
           , view = Icons.copyrightCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CreditCardFilled"
+        , { name = "creditCardFilled"
           , view = Icons.creditCardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CrownFilled"
+        , { name = "crownFilled"
           , view = Icons.crownFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "CustomerServiceFilled"
+        , { name = "customerServiceFilled"
           , view = Icons.customerServiceFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DashboardFilled"
+        , { name = "dashboardFilled"
           , view = Icons.dashboardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DatabaseFilled"
+        , { name = "databaseFilled"
           , view = Icons.databaseFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DingtalkCircleFilled"
+        , { name = "dingtalkCircleFilled"
           , view = Icons.dingtalkCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DingtalkSquareFilled"
+        , { name = "dingtalkSquareFilled"
           , view = Icons.dingtalkSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DislikeFilled"
+        , { name = "dislikeFilled"
           , view = Icons.dislikeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DollarCircleFilled"
+        , { name = "dollarCircleFilled"
           , view = Icons.dollarCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DribbbleCircleFilled"
+        , { name = "dribbbleCircleFilled"
           , view = Icons.dribbbleCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DropboxCircleFilled"
+        , { name = "dropboxCircleFilled"
           , view = Icons.dropboxCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "DropboxSquareFilled"
+        , { name = "dropboxSquareFilled"
           , view = Icons.dropboxSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EnvironmentFilled"
+        , { name = "environmentFilled"
           , view = Icons.environmentFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EuroCircleFilled"
+        , { name = "euroCircleFilled"
           , view = Icons.euroCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ExperimentFilled"
+        , { name = "experimentFilled"
           , view = Icons.experimentFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EyeFilled"
+        , { name = "eyeFilled"
           , view = Icons.eyeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "EyeInvisibleFilled"
+        , { name = "eyeInvisibleFilled"
           , view = Icons.eyeInvisibleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileAddFilled"
+        , { name = "fileAddFilled"
           , view = Icons.fileAddFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileExcelFilled"
+        , { name = "fileExcelFilled"
           , view = Icons.fileExcelFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileExclamationFilled"
+        , { name = "fileExclamationFilled"
           , view = Icons.fileExclamationFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileFilled"
+        , { name = "fileFilled"
           , view = Icons.fileFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileImageFilled"
+        , { name = "fileImageFilled"
           , view = Icons.fileImageFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileMarkdownFilled"
+        , { name = "fileMarkdownFilled"
           , view = Icons.fileMarkdownFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilePdfFilled"
+        , { name = "filePdfFilled"
           , view = Icons.filePdfFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilePptFilled"
+        , { name = "filePptFilled"
           , view = Icons.filePptFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileTextFilled"
+        , { name = "fileTextFilled"
           , view = Icons.fileTextFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileUnknownFilled"
+        , { name = "fileUnknownFilled"
           , view = Icons.fileUnknownFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileWordFilled"
+        , { name = "fileWordFilled"
           , view = Icons.fileWordFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FileZipFilled"
+        , { name = "fileZipFilled"
           , view = Icons.fileZipFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FilterFilled"
+        , { name = "filterFilled"
           , view = Icons.filterFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FireFilled"
+        , { name = "fireFilled"
           , view = Icons.fireFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FlagFilled"
+        , { name = "flagFilled"
           , view = Icons.flagFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderAddFilled"
+        , { name = "folderAddFilled"
           , view = Icons.folderAddFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderFilled"
+        , { name = "folderFilled"
           , view = Icons.folderFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FolderOpenFilled"
+        , { name = "folderOpenFilled"
           , view = Icons.folderOpenFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FormatPainterFilled"
+        , { name = "formatPainterFilled"
           , view = Icons.formatPainterFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FrownFilled"
+        , { name = "frownFilled"
           , view = Icons.frownFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "FunnelPlotFilled"
+        , { name = "funnelPlotFilled"
           , view = Icons.funnelPlotFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GiftFilled"
+        , { name = "giftFilled"
           , view = Icons.giftFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoldFilled"
+        , { name = "goldFilled"
           , view = Icons.goldFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoldenFilled"
+        , { name = "goldenFilled"
           , view = Icons.goldenFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoogleCircleFilled"
+        , { name = "googleCircleFilled"
           , view = Icons.googleCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GooglePlusCircleFilled"
+        , { name = "googlePlusCircleFilled"
           , view = Icons.googlePlusCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GooglePlusSquareFilled"
+        , { name = "googlePlusSquareFilled"
           , view = Icons.googlePlusSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "GoogleSquareFilled"
+        , { name = "googleSquareFilled"
           , view = Icons.googleSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HddFilled"
+        , { name = "hddFilled"
           , view = Icons.hddFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HeartFilled"
+        , { name = "heartFilled"
           , view = Icons.heartFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HomeFilled"
+        , { name = "homeFilled"
           , view = Icons.homeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "HourglassFilled"
+        , { name = "hourglassFilled"
           , view = Icons.hourglassFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IdcardFilled"
+        , { name = "idcardFilled"
           , view = Icons.idcardFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IeCircleFilled"
+        , { name = "ieCircleFilled"
           , view = Icons.ieCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "IeSquareFilled"
+        , { name = "ieSquareFilled"
           , view = Icons.ieSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InsuranceFilled"
+        , { name = "insuranceFilled"
           , view = Icons.insuranceFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "InteractionFilled"
+        , { name = "interactionFilled"
           , view = Icons.interactionFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LayoutFilled"
+        , { name = "layoutFilled"
           , view = Icons.layoutFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LikeFilled"
+        , { name = "likeFilled"
           , view = Icons.likeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "LockFilled"
+        , { name = "lockFilled"
           , view = Icons.lockFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MacCommandFilled"
+        , { name = "macCommandFilled"
           , view = Icons.macCommandFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MailFilled"
+        , { name = "mailFilled"
           , view = Icons.mailFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MedicineBoxFilled"
+        , { name = "medicineBoxFilled"
           , view = Icons.medicineBoxFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MediumCircleFilled"
+        , { name = "mediumCircleFilled"
           , view = Icons.mediumCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MediumSquareFilled"
+        , { name = "mediumSquareFilled"
           , view = Icons.mediumSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MehFilled"
+        , { name = "mehFilled"
           , view = Icons.mehFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MessageFilled"
+        , { name = "messageFilled"
           , view = Icons.messageFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MobileFilled"
+        , { name = "mobileFilled"
           , view = Icons.mobileFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "MoneyCollectFilled"
+        , { name = "moneyCollectFilled"
           , view = Icons.moneyCollectFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "NotificationFilled"
+        , { name = "notificationFilled"
           , view = Icons.notificationFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PayCircleFilled"
+        , { name = "payCircleFilled"
           , view = Icons.payCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PhoneFilled"
+        , { name = "phoneFilled"
           , view = Icons.phoneFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PictureFilled"
+        , { name = "pictureFilled"
           , view = Icons.pictureFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PlaySquareFilled"
+        , { name = "playSquareFilled"
           , view = Icons.playSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PoundCircleFilled"
+        , { name = "poundCircleFilled"
           , view = Icons.poundCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PrinterFilled"
+        , { name = "printerFilled"
           , view = Icons.printerFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ProfileFilled"
+        , { name = "profileFilled"
           , view = Icons.profileFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ProjectFilled"
+        , { name = "projectFilled"
           , view = Icons.projectFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PropertySafetyFilled"
+        , { name = "propertySafetyFilled"
           , view = Icons.propertySafetyFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "PushpinFilled"
+        , { name = "pushpinFilled"
           , view = Icons.pushpinFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "QqCircleFilled"
+        , { name = "qqCircleFilled"
           , view = Icons.qqCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "QqSquareFilled"
+        , { name = "qqSquareFilled"
           , view = Icons.qqSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ReadFilled"
+        , { name = "readFilled"
           , view = Icons.readFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ReconciliationFilled"
+        , { name = "reconciliationFilled"
           , view = Icons.reconciliationFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedEnvelopeFilled"
+        , { name = "redEnvelopeFilled"
           , view = Icons.redEnvelopeFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedditCircleFilled"
+        , { name = "redditCircleFilled"
           , view = Icons.redditCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RedditSquareFilled"
+        , { name = "redditSquareFilled"
           , view = Icons.redditSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RestFilled"
+        , { name = "restFilled"
           , view = Icons.restFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RobotFilled"
+        , { name = "robotFilled"
           , view = Icons.robotFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "RocketFilled"
+        , { name = "rocketFilled"
           , view = Icons.rocketFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SafetyCertificateFilled"
+        , { name = "safetyCertificateFilled"
           , view = Icons.safetyCertificateFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SaveFilled"
+        , { name = "saveFilled"
           , view = Icons.saveFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ScheduleFilled"
+        , { name = "scheduleFilled"
           , view = Icons.scheduleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SecurityScanFilled"
+        , { name = "securityScanFilled"
           , view = Icons.securityScanFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SettingFilled"
+        , { name = "settingFilled"
           , view = Icons.settingFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShopFilled"
+        , { name = "shopFilled"
           , view = Icons.shopFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ShoppingFilled"
+        , { name = "shoppingFilled"
           , view = Icons.shoppingFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SignalFilled"
+        , { name = "signalFilled"
           , view = Icons.signalFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SketchCircleFilled"
+        , { name = "sketchCircleFilled"
           , view = Icons.sketchCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SketchSquareFilled"
+        , { name = "sketchSquareFilled"
           , view = Icons.sketchSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SkinFilled"
+        , { name = "skinFilled"
           , view = Icons.skinFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SlackCircleFilled"
+        , { name = "slackCircleFilled"
           , view = Icons.slackCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SmileFilled"
+        , { name = "smileFilled"
           , view = Icons.smileFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SoundFilled"
+        , { name = "soundFilled"
           , view = Icons.soundFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "StarFilled"
+        , { name = "starFilled"
           , view = Icons.starFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "SwitcherFilled"
+        , { name = "switcherFilled"
           , view = Icons.switcherFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TabletFilled"
+        , { name = "tabletFilled"
           , view = Icons.tabletFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TagFilled"
+        , { name = "tagFilled"
           , view = Icons.tagFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TagsFilled"
+        , { name = "tagsFilled"
           , view = Icons.tagsFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TaobaoSquareFilled"
+        , { name = "taobaoSquareFilled"
           , view = Icons.taobaoSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ThunderboltFilled"
+        , { name = "thunderboltFilled"
           , view = Icons.thunderboltFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ToolFilled"
+        , { name = "toolFilled"
           , view = Icons.toolFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TrademarkCircleFilled"
+        , { name = "trademarkCircleFilled"
           , view = Icons.trademarkCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TrophyFilled"
+        , { name = "trophyFilled"
           , view = Icons.trophyFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TwitterCircleFilled"
+        , { name = "twitterCircleFilled"
           , view = Icons.twitterCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "TwitterSquareFilled"
+        , { name = "twitterSquareFilled"
           , view = Icons.twitterSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UnlockFilled"
+        , { name = "unlockFilled"
           , view = Icons.unlockFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "UsbFilled"
+        , { name = "usbFilled"
           , view = Icons.usbFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "VideoCameraFilled"
+        , { name = "videoCameraFilled"
           , view = Icons.videoCameraFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "WalletFilled"
+        , { name = "walletFilled"
           , view = Icons.walletFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ZhihuCircleFilled"
+        , { name = "zhihuCircleFilled"
           , view = Icons.zhihuCircleFilled [ width "36", height "36", fill "currentColor" ]
           }
-        , { name = "ZhihuSquareFilled"
+        , { name = "zhihuSquareFilled"
           , view = Icons.zhihuSquareFilled [ width "36", height "36", fill "currentColor" ]
           }
         ]
     , twoTone =
-        [ { name = "AccountBookTwoTone"
-          , view = Icons.accountBookTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "AlertTwoTone"
-          , view = Icons.alertTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ApiTwoTone"
-          , view = Icons.apiTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "AppstoreTwoTone"
-          , view = Icons.appstoreTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "AudioTwoTone"
-          , view = Icons.audioTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BankTwoTone"
-          , view = Icons.bankTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BellTwoTone"
-          , view = Icons.bellTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BookTwoTone"
-          , view = Icons.bookTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BugTwoTone"
-          , view = Icons.bugTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BuildTwoTone"
-          , view = Icons.buildTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "BulbTwoTone"
-          , view = Icons.bulbTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CalculatorTwoTone"
-          , view = Icons.calculatorTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CalendarTwoTone"
-          , view = Icons.calendarTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CameraTwoTone"
-          , view = Icons.cameraTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CarTwoTone"
-          , view = Icons.carTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CarryOutTwoTone"
-          , view = Icons.carryOutTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CiCircleTwoTone"
-          , view = Icons.ciCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CiTwoTone"
-          , view = Icons.ciTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CloudTwoTone"
-          , view = Icons.cloudTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CodeTwoTone"
-          , view = Icons.codeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CompassTwoTone"
-          , view = Icons.compassTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ContactsTwoTone"
-          , view = Icons.contactsTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ContainerTwoTone"
-          , view = Icons.containerTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ControlTwoTone"
-          , view = Icons.controlTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CopyrightCircleTwoTone"
-          , view = Icons.copyrightCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CopyrightTwoTone"
-          , view = Icons.copyrightTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CreditCardTwoTone"
-          , view = Icons.creditCardTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CrownTwoTone"
-          , view = Icons.crownTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "CustomerServiceTwoTone"
-          , view = Icons.customerServiceTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "DashboardTwoTone"
-          , view = Icons.dashboardTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "DatabaseTwoTone"
-          , view = Icons.databaseTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "DislikeTwoTone"
-          , view = Icons.dislikeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "DollarCircleTwoTone"
-          , view = Icons.dollarCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "DollarTwoTone"
-          , view = Icons.dollarTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "EnvironmentTwoTone"
-          , view = Icons.environmentTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "EuroCircleTwoTone"
-          , view = Icons.euroCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "EuroTwoTone"
-          , view = Icons.euroTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ExperimentTwoTone"
-          , view = Icons.experimentTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "EyeTwoTone"
-          , view = Icons.eyeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "EyeInvisibleTwoTone"
-          , view = Icons.eyeInvisibleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileAddTwoTone"
-          , view = Icons.fileAddTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileExcelTwoTone"
-          , view = Icons.fileExcelTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileExclamationTwoTone"
-          , view = Icons.fileExclamationTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileTwoTone"
-          , view = Icons.fileTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileImageTwoTone"
-          , view = Icons.fileImageTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileMarkdownTwoTone"
-          , view = Icons.fileMarkdownTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FilePdfTwoTone"
-          , view = Icons.filePdfTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FilePptTwoTone"
-          , view = Icons.filePptTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileTextTwoTone"
-          , view = Icons.fileTextTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileUnknownTwoTone"
-          , view = Icons.fileUnknownTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileWordTwoTone"
-          , view = Icons.fileWordTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FileZipTwoTone"
-          , view = Icons.fileZipTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FilterTwoTone"
-          , view = Icons.filterTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FireTwoTone"
-          , view = Icons.fireTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FlagTwoTone"
-          , view = Icons.flagTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FolderAddTwoTone"
-          , view = Icons.folderAddTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FolderTwoTone"
-          , view = Icons.folderTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FolderOpenTwoTone"
-          , view = Icons.folderOpenTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FrownTwoTone"
-          , view = Icons.frownTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "FunnelPlotTwoTone"
-          , view = Icons.funnelPlotTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "GiftTwoTone"
-          , view = Icons.giftTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "GoldTwoTone"
-          , view = Icons.goldTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "HddTwoTone"
-          , view = Icons.hddTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "HeartTwoTone"
-          , view = Icons.heartTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "HomeTwoTone"
-          , view = Icons.homeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "HourglassTwoTone"
-          , view = Icons.hourglassTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "IdcardTwoTone"
-          , view = Icons.idcardTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "InsuranceTwoTone"
-          , view = Icons.insuranceTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "InteractionTwoTone"
-          , view = Icons.interactionTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "LayoutTwoTone"
-          , view = Icons.layoutTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "LikeTwoTone"
-          , view = Icons.likeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "LockTwoTone"
-          , view = Icons.lockTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MailTwoTone"
-          , view = Icons.mailTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MedicineBoxTwoTone"
-          , view = Icons.medicineBoxTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MehTwoTone"
-          , view = Icons.mehTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MessageTwoTone"
-          , view = Icons.messageTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MobileTwoTone"
-          , view = Icons.mobileTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "MoneyCollectTwoTone"
-          , view = Icons.moneyCollectTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "NotificationTwoTone"
-          , view = Icons.notificationTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PhoneTwoTone"
-          , view = Icons.phoneTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PictureTwoTone"
-          , view = Icons.pictureTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PlaySquareTwoTone"
-          , view = Icons.playSquareTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PoundCircleTwoTone"
-          , view = Icons.poundCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PrinterTwoTone"
-          , view = Icons.printerTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ProfileTwoTone"
-          , view = Icons.profileTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ProjectTwoTone"
-          , view = Icons.projectTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PropertySafetyTwoTone"
-          , view = Icons.propertySafetyTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "PushpinTwoTone"
-          , view = Icons.pushpinTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ReconciliationTwoTone"
-          , view = Icons.reconciliationTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "RedEnvelopeTwoTone"
-          , view = Icons.redEnvelopeTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "RestTwoTone"
-          , view = Icons.restTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "RocketTwoTone"
-          , view = Icons.rocketTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SafetyCertificateTwoTone"
-          , view = Icons.safetyCertificateTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SaveTwoTone"
-          , view = Icons.saveTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ScheduleTwoTone"
-          , view = Icons.scheduleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SecurityScanTwoTone"
-          , view = Icons.securityScanTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SettingTwoTone"
-          , view = Icons.settingTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ShopTwoTone"
-          , view = Icons.shopTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ShoppingTwoTone"
-          , view = Icons.shoppingTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SkinTwoTone"
-          , view = Icons.skinTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SmileTwoTone"
-          , view = Icons.smileTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SoundTwoTone"
-          , view = Icons.soundTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "StarTwoTone"
-          , view = Icons.starTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "SwitcherTwoTone"
-          , view = Icons.switcherTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "TabletTwoTone"
-          , view = Icons.tabletTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "TagTwoTone"
-          , view = Icons.tagTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "TagsTwoTone"
-          , view = Icons.tagsTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ThunderboltTwoTone"
-          , view = Icons.thunderboltTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "ToolTwoTone"
-          , view = Icons.toolTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "TrademarkCircleTwoTone"
-          , view = Icons.trademarkCircleTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "TrophyTwoTone"
-          , view = Icons.trophyTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "UnlockTwoTone"
-          , view = Icons.unlockTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "UsbTwoTone"
-          , view = Icons.usbTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "VideoCameraTwoTone"
-          , view = Icons.videoCameraTwoTone [ width "36", height "36", fill "currentColor" ]
-          }
-        , { name = "WalletTwoTone"
-          , view = Icons.walletTwoTone [ width "36", height "36", fill "currentColor" ]
+        [ { name = "accountBookTwoTone"
+          , view =
+                Icons.accountBookTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "alertTwoTone"
+          , view =
+                Icons.alertTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "apiTwoTone"
+          , view =
+                Icons.apiTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "appstoreTwoTone"
+          , view =
+                Icons.appstoreTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "audioTwoTone"
+          , view =
+                Icons.audioTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "bankTwoTone"
+          , view =
+                Icons.bankTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "bellTwoTone"
+          , view =
+                Icons.bellTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "bookTwoTone"
+          , view =
+                Icons.bookTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "bugTwoTone"
+          , view =
+                Icons.bugTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "buildTwoTone"
+          , view =
+                Icons.buildTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "bulbTwoTone"
+          , view =
+                Icons.bulbTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "calculatorTwoTone"
+          , view =
+                Icons.calculatorTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "calendarTwoTone"
+          , view =
+                Icons.calendarTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "cameraTwoTone"
+          , view =
+                Icons.cameraTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "carTwoTone"
+          , view =
+                Icons.carTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "carryOutTwoTone"
+          , view =
+                Icons.carryOutTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "ciCircleTwoTone"
+          , view =
+                Icons.ciCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "ciTwoTone"
+          , view =
+                Icons.ciTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "cloudTwoTone"
+          , view =
+                Icons.cloudTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "codeTwoTone"
+          , view =
+                Icons.codeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "compassTwoTone"
+          , view =
+                Icons.compassTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "contactsTwoTone"
+          , view =
+                Icons.contactsTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "containerTwoTone"
+          , view =
+                Icons.containerTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "controlTwoTone"
+          , view =
+                Icons.controlTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "copyrightCircleTwoTone"
+          , view =
+                Icons.copyrightCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "copyrightTwoTone"
+          , view =
+                Icons.copyrightTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "creditCardTwoTone"
+          , view =
+                Icons.creditCardTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "crownTwoTone"
+          , view =
+                Icons.crownTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "customerServiceTwoTone"
+          , view =
+                Icons.customerServiceTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "dashboardTwoTone"
+          , view =
+                Icons.dashboardTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "databaseTwoTone"
+          , view =
+                Icons.databaseTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "dislikeTwoTone"
+          , view =
+                Icons.dislikeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "dollarCircleTwoTone"
+          , view =
+                Icons.dollarCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "dollarTwoTone"
+          , view =
+                Icons.dollarTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "environmentTwoTone"
+          , view =
+                Icons.environmentTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "euroCircleTwoTone"
+          , view =
+                Icons.euroCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "euroTwoTone"
+          , view =
+                Icons.euroTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "experimentTwoTone"
+          , view =
+                Icons.experimentTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "eyeTwoTone"
+          , view =
+                Icons.eyeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "eyeInvisibleTwoTone"
+          , view =
+                Icons.eyeInvisibleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileAddTwoTone"
+          , view =
+                Icons.fileAddTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileExcelTwoTone"
+          , view =
+                Icons.fileExcelTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileExclamationTwoTone"
+          , view =
+                Icons.fileExclamationTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileTwoTone"
+          , view =
+                Icons.fileTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileImageTwoTone"
+          , view =
+                Icons.fileImageTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileMarkdownTwoTone"
+          , view =
+                Icons.fileMarkdownTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "filePdfTwoTone"
+          , view =
+                Icons.filePdfTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "filePptTwoTone"
+          , view =
+                Icons.filePptTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileTextTwoTone"
+          , view =
+                Icons.fileTextTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileUnknownTwoTone"
+          , view =
+                Icons.fileUnknownTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileWordTwoTone"
+          , view =
+                Icons.fileWordTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fileZipTwoTone"
+          , view =
+                Icons.fileZipTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "filterTwoTone"
+          , view =
+                Icons.filterTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "fireTwoTone"
+          , view =
+                Icons.fireTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "flagTwoTone"
+          , view =
+                Icons.flagTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "folderAddTwoTone"
+          , view =
+                Icons.folderAddTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "folderTwoTone"
+          , view =
+                Icons.folderTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "folderOpenTwoTone"
+          , view =
+                Icons.folderOpenTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "frownTwoTone"
+          , view =
+                Icons.frownTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "funnelPlotTwoTone"
+          , view =
+                Icons.funnelPlotTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "giftTwoTone"
+          , view =
+                Icons.giftTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "goldTwoTone"
+          , view =
+                Icons.goldTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "hddTwoTone"
+          , view =
+                Icons.hddTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "heartTwoTone"
+          , view =
+                Icons.heartTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "homeTwoTone"
+          , view =
+                Icons.homeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "hourglassTwoTone"
+          , view =
+                Icons.hourglassTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "idcardTwoTone"
+          , view =
+                Icons.idcardTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "insuranceTwoTone"
+          , view =
+                Icons.insuranceTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "interactionTwoTone"
+          , view =
+                Icons.interactionTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "layoutTwoTone"
+          , view =
+                Icons.layoutTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "likeTwoTone"
+          , view =
+                Icons.likeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "lockTwoTone"
+          , view =
+                Icons.lockTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "mailTwoTone"
+          , view =
+                Icons.mailTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "medicineBoxTwoTone"
+          , view =
+                Icons.medicineBoxTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "mehTwoTone"
+          , view =
+                Icons.mehTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "messageTwoTone"
+          , view =
+                Icons.messageTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "mobileTwoTone"
+          , view =
+                Icons.mobileTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "moneyCollectTwoTone"
+          , view =
+                Icons.moneyCollectTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "notificationTwoTone"
+          , view =
+                Icons.notificationTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "phoneTwoTone"
+          , view =
+                Icons.phoneTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "pictureTwoTone"
+          , view =
+                Icons.pictureTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "playSquareTwoTone"
+          , view =
+                Icons.playSquareTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "poundCircleTwoTone"
+          , view =
+                Icons.poundCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "printerTwoTone"
+          , view =
+                Icons.printerTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "profileTwoTone"
+          , view =
+                Icons.profileTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "projectTwoTone"
+          , view =
+                Icons.projectTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "propertySafetyTwoTone"
+          , view =
+                Icons.propertySafetyTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "pushpinTwoTone"
+          , view =
+                Icons.pushpinTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "reconciliationTwoTone"
+          , view =
+                Icons.reconciliationTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "redEnvelopeTwoTone"
+          , view =
+                Icons.redEnvelopeTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "restTwoTone"
+          , view =
+                Icons.restTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "rocketTwoTone"
+          , view =
+                Icons.rocketTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "safetyCertificateTwoTone"
+          , view =
+                Icons.safetyCertificateTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "saveTwoTone"
+          , view =
+                Icons.saveTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "scheduleTwoTone"
+          , view =
+                Icons.scheduleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "securityScanTwoTone"
+          , view =
+                Icons.securityScanTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "settingTwoTone"
+          , view =
+                Icons.settingTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "shopTwoTone"
+          , view =
+                Icons.shopTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "shoppingTwoTone"
+          , view =
+                Icons.shoppingTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "skinTwoTone"
+          , view =
+                Icons.skinTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "smileTwoTone"
+          , view =
+                Icons.smileTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "soundTwoTone"
+          , view =
+                Icons.soundTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "starTwoTone"
+          , view =
+                Icons.starTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "switcherTwoTone"
+          , view =
+                Icons.switcherTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "tabletTwoTone"
+          , view =
+                Icons.tabletTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "tagTwoTone"
+          , view =
+                Icons.tagTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "tagsTwoTone"
+          , view =
+                Icons.tagsTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "thunderboltTwoTone"
+          , view =
+                Icons.thunderboltTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "toolTwoTone"
+          , view =
+                Icons.toolTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "trademarkCircleTwoTone"
+          , view =
+                Icons.trademarkCircleTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "trophyTwoTone"
+          , view =
+                Icons.trophyTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "unlockTwoTone"
+          , view =
+                Icons.unlockTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "usbTwoTone"
+          , view =
+                Icons.usbTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "videoCameraTwoTone"
+          , view =
+                Icons.videoCameraTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
+          }
+        , { name = "walletTwoTone"
+          , view =
+                Icons.walletTwoTone [ width "36", height "36" ]
+                    { primaryColor = Just "#1890FF", secondaryColor = Just "#E6F7FF" }
           }
         ]
     }

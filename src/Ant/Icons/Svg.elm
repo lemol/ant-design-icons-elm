@@ -849,7 +849,7 @@ accountBookOutlined =
 
 
 {-| -}
-accountBookTwoTone : List (Html.Attribute msg) -> Html msg
+accountBookTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 accountBookTwoTone =
     AccountBookTwoTone.viewWithAttributes
 
@@ -873,7 +873,7 @@ alertOutlined =
 
 
 {-| -}
-alertTwoTone : List (Html.Attribute msg) -> Html msg
+alertTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 alertTwoTone =
     AlertTwoTone.viewWithAttributes
 
@@ -1005,7 +1005,7 @@ apiOutlined =
 
 
 {-| -}
-apiTwoTone : List (Html.Attribute msg) -> Html msg
+apiTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 apiTwoTone =
     ApiTwoTone.viewWithAttributes
 
@@ -1041,7 +1041,7 @@ appstoreOutlined =
 
 
 {-| -}
-appstoreTwoTone : List (Html.Attribute msg) -> Html msg
+appstoreTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 appstoreTwoTone =
     AppstoreTwoTone.viewWithAttributes
 
@@ -1101,7 +1101,7 @@ audioOutlined =
 
 
 {-| -}
-audioTwoTone : List (Html.Attribute msg) -> Html msg
+audioTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 audioTwoTone =
     AudioTwoTone.viewWithAttributes
 
@@ -1137,7 +1137,7 @@ bankOutlined =
 
 
 {-| -}
-bankTwoTone : List (Html.Attribute msg) -> Html msg
+bankTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 bankTwoTone =
     BankTwoTone.viewWithAttributes
 
@@ -1197,7 +1197,7 @@ bellOutlined =
 
 
 {-| -}
-bellTwoTone : List (Html.Attribute msg) -> Html msg
+bellTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 bellTwoTone =
     BellTwoTone.viewWithAttributes
 
@@ -1233,7 +1233,7 @@ bookOutlined =
 
 
 {-| -}
-bookTwoTone : List (Html.Attribute msg) -> Html msg
+bookTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 bookTwoTone =
     BookTwoTone.viewWithAttributes
 
@@ -1311,7 +1311,7 @@ boxPlotOutlined =
 
 
 {-| -}
-boxPlotTwoTone : List (Html.Attribute msg) -> Html msg
+boxPlotTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 boxPlotTwoTone =
     BoxPlotTwoTone.viewWithAttributes
 
@@ -1335,7 +1335,7 @@ bugOutlined =
 
 
 {-| -}
-bugTwoTone : List (Html.Attribute msg) -> Html msg
+bugTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 bugTwoTone =
     BugTwoTone.viewWithAttributes
 
@@ -1353,7 +1353,7 @@ buildOutlined =
 
 
 {-| -}
-buildTwoTone : List (Html.Attribute msg) -> Html msg
+buildTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 buildTwoTone =
     BuildTwoTone.viewWithAttributes
 
@@ -1371,7 +1371,7 @@ bulbOutlined =
 
 
 {-| -}
-bulbTwoTone : List (Html.Attribute msg) -> Html msg
+bulbTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 bulbTwoTone =
     BulbTwoTone.viewWithAttributes
 
@@ -1389,7 +1389,7 @@ calculatorOutlined =
 
 
 {-| -}
-calculatorTwoTone : List (Html.Attribute msg) -> Html msg
+calculatorTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 calculatorTwoTone =
     CalculatorTwoTone.viewWithAttributes
 
@@ -1407,7 +1407,7 @@ calendarOutlined =
 
 
 {-| -}
-calendarTwoTone : List (Html.Attribute msg) -> Html msg
+calendarTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 calendarTwoTone =
     CalendarTwoTone.viewWithAttributes
 
@@ -1425,7 +1425,7 @@ cameraOutlined =
 
 
 {-| -}
-cameraTwoTone : List (Html.Attribute msg) -> Html msg
+cameraTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 cameraTwoTone =
     CameraTwoTone.viewWithAttributes
 
@@ -1443,7 +1443,7 @@ carOutlined =
 
 
 {-| -}
-carTwoTone : List (Html.Attribute msg) -> Html msg
+carTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 carTwoTone =
     CarTwoTone.viewWithAttributes
 
@@ -1509,7 +1509,7 @@ carryOutOutlined =
 
 
 {-| -}
-carryOutTwoTone : List (Html.Attribute msg) -> Html msg
+carryOutTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 carryOutTwoTone =
     CarryOutTwoTone.viewWithAttributes
 
@@ -1527,7 +1527,7 @@ checkCircleOutlined =
 
 
 {-| -}
-checkCircleTwoTone : List (Html.Attribute msg) -> Html msg
+checkCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 checkCircleTwoTone =
     CheckCircleTwoTone.viewWithAttributes
 
@@ -1551,7 +1551,7 @@ checkSquareOutlined =
 
 
 {-| -}
-checkSquareTwoTone : List (Html.Attribute msg) -> Html msg
+checkSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 checkSquareTwoTone =
     CheckSquareTwoTone.viewWithAttributes
 
@@ -1581,7 +1581,7 @@ ciCircleOutlined =
 
 
 {-| -}
-ciCircleTwoTone : List (Html.Attribute msg) -> Html msg
+ciCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 ciCircleTwoTone =
     CiCircleTwoTone.viewWithAttributes
 
@@ -1593,7 +1593,7 @@ ciOutlined =
 
 
 {-| -}
-ciTwoTone : List (Html.Attribute msg) -> Html msg
+ciTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 ciTwoTone =
     CiTwoTone.viewWithAttributes
 
@@ -1617,7 +1617,7 @@ clockCircleOutlined =
 
 
 {-| -}
-clockCircleTwoTone : List (Html.Attribute msg) -> Html msg
+clockCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 clockCircleTwoTone =
     ClockCircleTwoTone.viewWithAttributes
 
@@ -1635,7 +1635,7 @@ closeCircleOutlined =
 
 
 {-| -}
-closeCircleTwoTone : List (Html.Attribute msg) -> Html msg
+closeCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 closeCircleTwoTone =
     CloseCircleTwoTone.viewWithAttributes
 
@@ -1659,7 +1659,7 @@ closeSquareOutlined =
 
 
 {-| -}
-closeSquareTwoTone : List (Html.Attribute msg) -> Html msg
+closeSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 closeSquareTwoTone =
     CloseSquareTwoTone.viewWithAttributes
 
@@ -1695,7 +1695,7 @@ cloudSyncOutlined =
 
 
 {-| -}
-cloudTwoTone : List (Html.Attribute msg) -> Html msg
+cloudTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 cloudTwoTone =
     CloudTwoTone.viewWithAttributes
 
@@ -1743,7 +1743,7 @@ codeSandboxSquareFilled =
 
 
 {-| -}
-codeTwoTone : List (Html.Attribute msg) -> Html msg
+codeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 codeTwoTone =
     CodeTwoTone.viewWithAttributes
 
@@ -1809,7 +1809,7 @@ compassOutlined =
 
 
 {-| -}
-compassTwoTone : List (Html.Attribute msg) -> Html msg
+compassTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 compassTwoTone =
     CompassTwoTone.viewWithAttributes
 
@@ -1839,7 +1839,7 @@ contactsOutlined =
 
 
 {-| -}
-contactsTwoTone : List (Html.Attribute msg) -> Html msg
+contactsTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 contactsTwoTone =
     ContactsTwoTone.viewWithAttributes
 
@@ -1857,7 +1857,7 @@ containerOutlined =
 
 
 {-| -}
-containerTwoTone : List (Html.Attribute msg) -> Html msg
+containerTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 containerTwoTone =
     ContainerTwoTone.viewWithAttributes
 
@@ -1875,7 +1875,7 @@ controlOutlined =
 
 
 {-| -}
-controlTwoTone : List (Html.Attribute msg) -> Html msg
+controlTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 controlTwoTone =
     ControlTwoTone.viewWithAttributes
 
@@ -1893,7 +1893,7 @@ copyOutlined =
 
 
 {-| -}
-copyTwoTone : List (Html.Attribute msg) -> Html msg
+copyTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 copyTwoTone =
     CopyTwoTone.viewWithAttributes
 
@@ -1911,7 +1911,7 @@ copyrightCircleOutlined =
 
 
 {-| -}
-copyrightCircleTwoTone : List (Html.Attribute msg) -> Html msg
+copyrightCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 copyrightCircleTwoTone =
     CopyrightCircleTwoTone.viewWithAttributes
 
@@ -1923,7 +1923,7 @@ copyrightOutlined =
 
 
 {-| -}
-copyrightTwoTone : List (Html.Attribute msg) -> Html msg
+copyrightTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 copyrightTwoTone =
     CopyrightTwoTone.viewWithAttributes
 
@@ -1941,7 +1941,7 @@ creditCardOutlined =
 
 
 {-| -}
-creditCardTwoTone : List (Html.Attribute msg) -> Html msg
+creditCardTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 creditCardTwoTone =
     CreditCardTwoTone.viewWithAttributes
 
@@ -1959,7 +1959,7 @@ crownOutlined =
 
 
 {-| -}
-crownTwoTone : List (Html.Attribute msg) -> Html msg
+crownTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 crownTwoTone =
     CrownTwoTone.viewWithAttributes
 
@@ -1977,7 +1977,7 @@ customerServiceOutlined =
 
 
 {-| -}
-customerServiceTwoTone : List (Html.Attribute msg) -> Html msg
+customerServiceTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 customerServiceTwoTone =
     CustomerServiceTwoTone.viewWithAttributes
 
@@ -2001,7 +2001,7 @@ dashboardOutlined =
 
 
 {-| -}
-dashboardTwoTone : List (Html.Attribute msg) -> Html msg
+dashboardTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 dashboardTwoTone =
     DashboardTwoTone.viewWithAttributes
 
@@ -2019,7 +2019,7 @@ databaseOutlined =
 
 
 {-| -}
-databaseTwoTone : List (Html.Attribute msg) -> Html msg
+databaseTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 databaseTwoTone =
     DatabaseTwoTone.viewWithAttributes
 
@@ -2049,7 +2049,7 @@ deleteRowOutlined =
 
 
 {-| -}
-deleteTwoTone : List (Html.Attribute msg) -> Html msg
+deleteTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 deleteTwoTone =
     DeleteTwoTone.viewWithAttributes
 
@@ -2085,7 +2085,7 @@ diffOutlined =
 
 
 {-| -}
-diffTwoTone : List (Html.Attribute msg) -> Html msg
+diffTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 diffTwoTone =
     DiffTwoTone.viewWithAttributes
 
@@ -2133,7 +2133,7 @@ dislikeOutlined =
 
 
 {-| -}
-dislikeTwoTone : List (Html.Attribute msg) -> Html msg
+dislikeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 dislikeTwoTone =
     DislikeTwoTone.viewWithAttributes
 
@@ -2151,7 +2151,7 @@ dollarCircleOutlined =
 
 
 {-| -}
-dollarCircleTwoTone : List (Html.Attribute msg) -> Html msg
+dollarCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 dollarCircleTwoTone =
     DollarCircleTwoTone.viewWithAttributes
 
@@ -2163,7 +2163,7 @@ dollarOutlined =
 
 
 {-| -}
-dollarTwoTone : List (Html.Attribute msg) -> Html msg
+dollarTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 dollarTwoTone =
     DollarTwoTone.viewWithAttributes
 
@@ -2199,7 +2199,7 @@ downCircleOutlined =
 
 
 {-| -}
-downCircleTwoTone : List (Html.Attribute msg) -> Html msg
+downCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 downCircleTwoTone =
     DownCircleTwoTone.viewWithAttributes
 
@@ -2223,7 +2223,7 @@ downSquareOutlined =
 
 
 {-| -}
-downSquareTwoTone : List (Html.Attribute msg) -> Html msg
+downSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 downSquareTwoTone =
     DownSquareTwoTone.viewWithAttributes
 
@@ -2295,7 +2295,7 @@ editOutlined =
 
 
 {-| -}
-editTwoTone : List (Html.Attribute msg) -> Html msg
+editTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 editTwoTone =
     EditTwoTone.viewWithAttributes
 
@@ -2325,7 +2325,7 @@ environmentOutlined =
 
 
 {-| -}
-environmentTwoTone : List (Html.Attribute msg) -> Html msg
+environmentTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 environmentTwoTone =
     EnvironmentTwoTone.viewWithAttributes
 
@@ -2343,7 +2343,7 @@ euroCircleOutlined =
 
 
 {-| -}
-euroCircleTwoTone : List (Html.Attribute msg) -> Html msg
+euroCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 euroCircleTwoTone =
     EuroCircleTwoTone.viewWithAttributes
 
@@ -2355,7 +2355,7 @@ euroOutlined =
 
 
 {-| -}
-euroTwoTone : List (Html.Attribute msg) -> Html msg
+euroTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 euroTwoTone =
     EuroTwoTone.viewWithAttributes
 
@@ -2379,7 +2379,7 @@ exclamationCircleOutlined =
 
 
 {-| -}
-exclamationCircleTwoTone : List (Html.Attribute msg) -> Html msg
+exclamationCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 exclamationCircleTwoTone =
     ExclamationCircleTwoTone.viewWithAttributes
 
@@ -2415,7 +2415,7 @@ experimentOutlined =
 
 
 {-| -}
-experimentTwoTone : List (Html.Attribute msg) -> Html msg
+experimentTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 experimentTwoTone =
     ExperimentTwoTone.viewWithAttributes
 
@@ -2445,7 +2445,7 @@ eyeInvisibleOutlined =
 
 
 {-| -}
-eyeInvisibleTwoTone : List (Html.Attribute msg) -> Html msg
+eyeInvisibleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 eyeInvisibleTwoTone =
     EyeInvisibleTwoTone.viewWithAttributes
 
@@ -2457,7 +2457,7 @@ eyeOutlined =
 
 
 {-| -}
-eyeTwoTone : List (Html.Attribute msg) -> Html msg
+eyeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 eyeTwoTone =
     EyeTwoTone.viewWithAttributes
 
@@ -2541,7 +2541,7 @@ fileAddOutlined =
 
 
 {-| -}
-fileAddTwoTone : List (Html.Attribute msg) -> Html msg
+fileAddTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileAddTwoTone =
     FileAddTwoTone.viewWithAttributes
 
@@ -2565,7 +2565,7 @@ fileExcelOutlined =
 
 
 {-| -}
-fileExcelTwoTone : List (Html.Attribute msg) -> Html msg
+fileExcelTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileExcelTwoTone =
     FileExcelTwoTone.viewWithAttributes
 
@@ -2583,7 +2583,7 @@ fileExclamationOutlined =
 
 
 {-| -}
-fileExclamationTwoTone : List (Html.Attribute msg) -> Html msg
+fileExclamationTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileExclamationTwoTone =
     FileExclamationTwoTone.viewWithAttributes
 
@@ -2613,7 +2613,7 @@ fileImageOutlined =
 
 
 {-| -}
-fileImageTwoTone : List (Html.Attribute msg) -> Html msg
+fileImageTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileImageTwoTone =
     FileImageTwoTone.viewWithAttributes
 
@@ -2637,7 +2637,7 @@ fileMarkdownOutlined =
 
 
 {-| -}
-fileMarkdownTwoTone : List (Html.Attribute msg) -> Html msg
+fileMarkdownTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileMarkdownTwoTone =
     FileMarkdownTwoTone.viewWithAttributes
 
@@ -2661,7 +2661,7 @@ filePdfOutlined =
 
 
 {-| -}
-filePdfTwoTone : List (Html.Attribute msg) -> Html msg
+filePdfTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 filePdfTwoTone =
     FilePdfTwoTone.viewWithAttributes
 
@@ -2679,7 +2679,7 @@ filePptOutlined =
 
 
 {-| -}
-filePptTwoTone : List (Html.Attribute msg) -> Html msg
+filePptTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 filePptTwoTone =
     FilePptTwoTone.viewWithAttributes
 
@@ -2715,13 +2715,13 @@ fileTextOutlined =
 
 
 {-| -}
-fileTextTwoTone : List (Html.Attribute msg) -> Html msg
+fileTextTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileTextTwoTone =
     FileTextTwoTone.viewWithAttributes
 
 
 {-| -}
-fileTwoTone : List (Html.Attribute msg) -> Html msg
+fileTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileTwoTone =
     FileTwoTone.viewWithAttributes
 
@@ -2739,7 +2739,7 @@ fileUnknownOutlined =
 
 
 {-| -}
-fileUnknownTwoTone : List (Html.Attribute msg) -> Html msg
+fileUnknownTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileUnknownTwoTone =
     FileUnknownTwoTone.viewWithAttributes
 
@@ -2757,7 +2757,7 @@ fileWordOutlined =
 
 
 {-| -}
-fileWordTwoTone : List (Html.Attribute msg) -> Html msg
+fileWordTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileWordTwoTone =
     FileWordTwoTone.viewWithAttributes
 
@@ -2775,7 +2775,7 @@ fileZipOutlined =
 
 
 {-| -}
-fileZipTwoTone : List (Html.Attribute msg) -> Html msg
+fileZipTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fileZipTwoTone =
     FileZipTwoTone.viewWithAttributes
 
@@ -2793,7 +2793,7 @@ filterOutlined =
 
 
 {-| -}
-filterTwoTone : List (Html.Attribute msg) -> Html msg
+filterTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 filterTwoTone =
     FilterTwoTone.viewWithAttributes
 
@@ -2811,7 +2811,7 @@ fireOutlined =
 
 
 {-| -}
-fireTwoTone : List (Html.Attribute msg) -> Html msg
+fireTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fireTwoTone =
     FireTwoTone.viewWithAttributes
 
@@ -2829,7 +2829,7 @@ flagOutlined =
 
 
 {-| -}
-flagTwoTone : List (Html.Attribute msg) -> Html msg
+flagTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 flagTwoTone =
     FlagTwoTone.viewWithAttributes
 
@@ -2847,7 +2847,7 @@ folderAddOutlined =
 
 
 {-| -}
-folderAddTwoTone : List (Html.Attribute msg) -> Html msg
+folderAddTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 folderAddTwoTone =
     FolderAddTwoTone.viewWithAttributes
 
@@ -2871,7 +2871,7 @@ folderOpenOutlined =
 
 
 {-| -}
-folderOpenTwoTone : List (Html.Attribute msg) -> Html msg
+folderOpenTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 folderOpenTwoTone =
     FolderOpenTwoTone.viewWithAttributes
 
@@ -2883,7 +2883,7 @@ folderOutlined =
 
 
 {-| -}
-folderTwoTone : List (Html.Attribute msg) -> Html msg
+folderTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 folderTwoTone =
     FolderTwoTone.viewWithAttributes
 
@@ -2955,7 +2955,7 @@ frownOutlined =
 
 
 {-| -}
-frownTwoTone : List (Html.Attribute msg) -> Html msg
+frownTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 frownTwoTone =
     FrownTwoTone.viewWithAttributes
 
@@ -2997,7 +2997,7 @@ fundProjectionScreenOutlined =
 
 
 {-| -}
-fundTwoTone : List (Html.Attribute msg) -> Html msg
+fundTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 fundTwoTone =
     FundTwoTone.viewWithAttributes
 
@@ -3021,7 +3021,7 @@ funnelPlotOutlined =
 
 
 {-| -}
-funnelPlotTwoTone : List (Html.Attribute msg) -> Html msg
+funnelPlotTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 funnelPlotTwoTone =
     FunnelPlotTwoTone.viewWithAttributes
 
@@ -3051,7 +3051,7 @@ giftOutlined =
 
 
 {-| -}
-giftTwoTone : List (Html.Attribute msg) -> Html msg
+giftTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 giftTwoTone =
     GiftTwoTone.viewWithAttributes
 
@@ -3099,7 +3099,7 @@ goldOutlined =
 
 
 {-| -}
-goldTwoTone : List (Html.Attribute msg) -> Html msg
+goldTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 goldTwoTone =
     GoldTwoTone.viewWithAttributes
 
@@ -3165,7 +3165,7 @@ hddOutlined =
 
 
 {-| -}
-hddTwoTone : List (Html.Attribute msg) -> Html msg
+hddTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 hddTwoTone =
     HddTwoTone.viewWithAttributes
 
@@ -3183,7 +3183,7 @@ heartOutlined =
 
 
 {-| -}
-heartTwoTone : List (Html.Attribute msg) -> Html msg
+heartTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 heartTwoTone =
     HeartTwoTone.viewWithAttributes
 
@@ -3207,7 +3207,7 @@ highlightOutlined =
 
 
 {-| -}
-highlightTwoTone : List (Html.Attribute msg) -> Html msg
+highlightTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 highlightTwoTone =
     HighlightTwoTone.viewWithAttributes
 
@@ -3231,7 +3231,7 @@ homeOutlined =
 
 
 {-| -}
-homeTwoTone : List (Html.Attribute msg) -> Html msg
+homeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 homeTwoTone =
     HomeTwoTone.viewWithAttributes
 
@@ -3249,7 +3249,7 @@ hourglassOutlined =
 
 
 {-| -}
-hourglassTwoTone : List (Html.Attribute msg) -> Html msg
+hourglassTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 hourglassTwoTone =
     HourglassTwoTone.viewWithAttributes
 
@@ -3267,7 +3267,7 @@ html5Outlined =
 
 
 {-| -}
-html5TwoTone : List (Html.Attribute msg) -> Html msg
+html5TwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 html5TwoTone =
     Html5TwoTone.viewWithAttributes
 
@@ -3285,7 +3285,7 @@ idcardOutlined =
 
 
 {-| -}
-idcardTwoTone : List (Html.Attribute msg) -> Html msg
+idcardTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 idcardTwoTone =
     IdcardTwoTone.viewWithAttributes
 
@@ -3333,7 +3333,7 @@ infoCircleOutlined =
 
 
 {-| -}
-infoCircleTwoTone : List (Html.Attribute msg) -> Html msg
+infoCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 infoCircleTwoTone =
     InfoCircleTwoTone.viewWithAttributes
 
@@ -3393,7 +3393,7 @@ insuranceOutlined =
 
 
 {-| -}
-insuranceTwoTone : List (Html.Attribute msg) -> Html msg
+insuranceTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 insuranceTwoTone =
     InsuranceTwoTone.viewWithAttributes
 
@@ -3411,7 +3411,7 @@ interactionOutlined =
 
 
 {-| -}
-interactionTwoTone : List (Html.Attribute msg) -> Html msg
+interactionTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 interactionTwoTone =
     InteractionTwoTone.viewWithAttributes
 
@@ -3453,7 +3453,7 @@ layoutOutlined =
 
 
 {-| -}
-layoutTwoTone : List (Html.Attribute msg) -> Html msg
+layoutTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 layoutTwoTone =
     LayoutTwoTone.viewWithAttributes
 
@@ -3471,7 +3471,7 @@ leftCircleOutlined =
 
 
 {-| -}
-leftCircleTwoTone : List (Html.Attribute msg) -> Html msg
+leftCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 leftCircleTwoTone =
     LeftCircleTwoTone.viewWithAttributes
 
@@ -3495,7 +3495,7 @@ leftSquareOutlined =
 
 
 {-| -}
-leftSquareTwoTone : List (Html.Attribute msg) -> Html msg
+leftSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 leftSquareTwoTone =
     LeftSquareTwoTone.viewWithAttributes
 
@@ -3513,7 +3513,7 @@ likeOutlined =
 
 
 {-| -}
-likeTwoTone : List (Html.Attribute msg) -> Html msg
+likeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 likeTwoTone =
     LikeTwoTone.viewWithAttributes
 
@@ -3579,7 +3579,7 @@ lockOutlined =
 
 
 {-| -}
-lockTwoTone : List (Html.Attribute msg) -> Html msg
+lockTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 lockTwoTone =
     LockTwoTone.viewWithAttributes
 
@@ -3621,7 +3621,7 @@ mailOutlined =
 
 
 {-| -}
-mailTwoTone : List (Html.Attribute msg) -> Html msg
+mailTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 mailTwoTone =
     MailTwoTone.viewWithAttributes
 
@@ -3645,7 +3645,7 @@ medicineBoxOutlined =
 
 
 {-| -}
-medicineBoxTwoTone : List (Html.Attribute msg) -> Html msg
+medicineBoxTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 medicineBoxTwoTone =
     MedicineBoxTwoTone.viewWithAttributes
 
@@ -3687,7 +3687,7 @@ mehOutlined =
 
 
 {-| -}
-mehTwoTone : List (Html.Attribute msg) -> Html msg
+mehTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 mehTwoTone =
     MehTwoTone.viewWithAttributes
 
@@ -3729,7 +3729,7 @@ messageOutlined =
 
 
 {-| -}
-messageTwoTone : List (Html.Attribute msg) -> Html msg
+messageTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 messageTwoTone =
     MessageTwoTone.viewWithAttributes
 
@@ -3747,7 +3747,7 @@ minusCircleOutlined =
 
 
 {-| -}
-minusCircleTwoTone : List (Html.Attribute msg) -> Html msg
+minusCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 minusCircleTwoTone =
     MinusCircleTwoTone.viewWithAttributes
 
@@ -3771,7 +3771,7 @@ minusSquareOutlined =
 
 
 {-| -}
-minusSquareTwoTone : List (Html.Attribute msg) -> Html msg
+minusSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 minusSquareTwoTone =
     MinusSquareTwoTone.viewWithAttributes
 
@@ -3789,7 +3789,7 @@ mobileOutlined =
 
 
 {-| -}
-mobileTwoTone : List (Html.Attribute msg) -> Html msg
+mobileTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 mobileTwoTone =
     MobileTwoTone.viewWithAttributes
 
@@ -3807,7 +3807,7 @@ moneyCollectOutlined =
 
 
 {-| -}
-moneyCollectTwoTone : List (Html.Attribute msg) -> Html msg
+moneyCollectTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 moneyCollectTwoTone =
     MoneyCollectTwoTone.viewWithAttributes
 
@@ -3855,7 +3855,7 @@ notificationOutlined =
 
 
 {-| -}
-notificationTwoTone : List (Html.Attribute msg) -> Html msg
+notificationTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 notificationTwoTone =
     NotificationTwoTone.viewWithAttributes
 
@@ -3903,7 +3903,7 @@ pauseCircleOutlined =
 
 
 {-| -}
-pauseCircleTwoTone : List (Html.Attribute msg) -> Html msg
+pauseCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 pauseCircleTwoTone =
     PauseCircleTwoTone.viewWithAttributes
 
@@ -3945,7 +3945,7 @@ phoneOutlined =
 
 
 {-| -}
-phoneTwoTone : List (Html.Attribute msg) -> Html msg
+phoneTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 phoneTwoTone =
     PhoneTwoTone.viewWithAttributes
 
@@ -3981,7 +3981,7 @@ pictureOutlined =
 
 
 {-| -}
-pictureTwoTone : List (Html.Attribute msg) -> Html msg
+pictureTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 pictureTwoTone =
     PictureTwoTone.viewWithAttributes
 
@@ -3999,7 +3999,7 @@ pieChartOutlined =
 
 
 {-| -}
-pieChartTwoTone : List (Html.Attribute msg) -> Html msg
+pieChartTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 pieChartTwoTone =
     PieChartTwoTone.viewWithAttributes
 
@@ -4017,7 +4017,7 @@ playCircleOutlined =
 
 
 {-| -}
-playCircleTwoTone : List (Html.Attribute msg) -> Html msg
+playCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 playCircleTwoTone =
     PlayCircleTwoTone.viewWithAttributes
 
@@ -4035,7 +4035,7 @@ playSquareOutlined =
 
 
 {-| -}
-playSquareTwoTone : List (Html.Attribute msg) -> Html msg
+playSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 playSquareTwoTone =
     PlaySquareTwoTone.viewWithAttributes
 
@@ -4053,7 +4053,7 @@ plusCircleOutlined =
 
 
 {-| -}
-plusCircleTwoTone : List (Html.Attribute msg) -> Html msg
+plusCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 plusCircleTwoTone =
     PlusCircleTwoTone.viewWithAttributes
 
@@ -4077,7 +4077,7 @@ plusSquareOutlined =
 
 
 {-| -}
-plusSquareTwoTone : List (Html.Attribute msg) -> Html msg
+plusSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 plusSquareTwoTone =
     PlusSquareTwoTone.viewWithAttributes
 
@@ -4095,7 +4095,7 @@ poundCircleOutlined =
 
 
 {-| -}
-poundCircleTwoTone : List (Html.Attribute msg) -> Html msg
+poundCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 poundCircleTwoTone =
     PoundCircleTwoTone.viewWithAttributes
 
@@ -4125,7 +4125,7 @@ printerOutlined =
 
 
 {-| -}
-printerTwoTone : List (Html.Attribute msg) -> Html msg
+printerTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 printerTwoTone =
     PrinterTwoTone.viewWithAttributes
 
@@ -4143,7 +4143,7 @@ profileOutlined =
 
 
 {-| -}
-profileTwoTone : List (Html.Attribute msg) -> Html msg
+profileTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 profileTwoTone =
     ProfileTwoTone.viewWithAttributes
 
@@ -4161,7 +4161,7 @@ projectOutlined =
 
 
 {-| -}
-projectTwoTone : List (Html.Attribute msg) -> Html msg
+projectTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 projectTwoTone =
     ProjectTwoTone.viewWithAttributes
 
@@ -4179,7 +4179,7 @@ propertySafetyOutlined =
 
 
 {-| -}
-propertySafetyTwoTone : List (Html.Attribute msg) -> Html msg
+propertySafetyTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 propertySafetyTwoTone =
     PropertySafetyTwoTone.viewWithAttributes
 
@@ -4203,7 +4203,7 @@ pushpinOutlined =
 
 
 {-| -}
-pushpinTwoTone : List (Html.Attribute msg) -> Html msg
+pushpinTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 pushpinTwoTone =
     PushpinTwoTone.viewWithAttributes
 
@@ -4245,7 +4245,7 @@ questionCircleOutlined =
 
 
 {-| -}
-questionCircleTwoTone : List (Html.Attribute msg) -> Html msg
+questionCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 questionCircleTwoTone =
     QuestionCircleTwoTone.viewWithAttributes
 
@@ -4317,7 +4317,7 @@ reconciliationOutlined =
 
 
 {-| -}
-reconciliationTwoTone : List (Html.Attribute msg) -> Html msg
+reconciliationTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 reconciliationTwoTone =
     ReconciliationTwoTone.viewWithAttributes
 
@@ -4335,7 +4335,7 @@ redEnvelopeOutlined =
 
 
 {-| -}
-redEnvelopeTwoTone : List (Html.Attribute msg) -> Html msg
+redEnvelopeTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 redEnvelopeTwoTone =
     RedEnvelopeTwoTone.viewWithAttributes
 
@@ -4383,7 +4383,7 @@ restOutlined =
 
 
 {-| -}
-restTwoTone : List (Html.Attribute msg) -> Html msg
+restTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 restTwoTone =
     RestTwoTone.viewWithAttributes
 
@@ -4407,7 +4407,7 @@ rightCircleOutlined =
 
 
 {-| -}
-rightCircleTwoTone : List (Html.Attribute msg) -> Html msg
+rightCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 rightCircleTwoTone =
     RightCircleTwoTone.viewWithAttributes
 
@@ -4431,7 +4431,7 @@ rightSquareOutlined =
 
 
 {-| -}
-rightSquareTwoTone : List (Html.Attribute msg) -> Html msg
+rightSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 rightSquareTwoTone =
     RightSquareTwoTone.viewWithAttributes
 
@@ -4467,7 +4467,7 @@ rocketOutlined =
 
 
 {-| -}
-rocketTwoTone : List (Html.Attribute msg) -> Html msg
+rocketTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 rocketTwoTone =
     RocketTwoTone.viewWithAttributes
 
@@ -4503,7 +4503,7 @@ safetyCertificateOutlined =
 
 
 {-| -}
-safetyCertificateTwoTone : List (Html.Attribute msg) -> Html msg
+safetyCertificateTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 safetyCertificateTwoTone =
     SafetyCertificateTwoTone.viewWithAttributes
 
@@ -4527,7 +4527,7 @@ saveOutlined =
 
 
 {-| -}
-saveTwoTone : List (Html.Attribute msg) -> Html msg
+saveTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 saveTwoTone =
     SaveTwoTone.viewWithAttributes
 
@@ -4551,7 +4551,7 @@ scheduleOutlined =
 
 
 {-| -}
-scheduleTwoTone : List (Html.Attribute msg) -> Html msg
+scheduleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 scheduleTwoTone =
     ScheduleTwoTone.viewWithAttributes
 
@@ -4581,7 +4581,7 @@ securityScanOutlined =
 
 
 {-| -}
-securityScanTwoTone : List (Html.Attribute msg) -> Html msg
+securityScanTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 securityScanTwoTone =
     SecurityScanTwoTone.viewWithAttributes
 
@@ -4611,7 +4611,7 @@ settingOutlined =
 
 
 {-| -}
-settingTwoTone : List (Html.Attribute msg) -> Html msg
+settingTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 settingTwoTone =
     SettingTwoTone.viewWithAttributes
 
@@ -4641,7 +4641,7 @@ shopOutlined =
 
 
 {-| -}
-shopTwoTone : List (Html.Attribute msg) -> Html msg
+shopTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 shopTwoTone =
     ShopTwoTone.viewWithAttributes
 
@@ -4665,7 +4665,7 @@ shoppingOutlined =
 
 
 {-| -}
-shoppingTwoTone : List (Html.Attribute msg) -> Html msg
+shoppingTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 shoppingTwoTone =
     ShoppingTwoTone.viewWithAttributes
 
@@ -4719,7 +4719,7 @@ skinOutlined =
 
 
 {-| -}
-skinTwoTone : List (Html.Attribute msg) -> Html msg
+skinTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 skinTwoTone =
     SkinTwoTone.viewWithAttributes
 
@@ -4773,7 +4773,7 @@ slidersOutlined =
 
 
 {-| -}
-slidersTwoTone : List (Html.Attribute msg) -> Html msg
+slidersTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 slidersTwoTone =
     SlidersTwoTone.viewWithAttributes
 
@@ -4797,7 +4797,7 @@ smileOutlined =
 
 
 {-| -}
-smileTwoTone : List (Html.Attribute msg) -> Html msg
+smileTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 smileTwoTone =
     SmileTwoTone.viewWithAttributes
 
@@ -4815,7 +4815,7 @@ snippetsOutlined =
 
 
 {-| -}
-snippetsTwoTone : List (Html.Attribute msg) -> Html msg
+snippetsTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 snippetsTwoTone =
     SnippetsTwoTone.viewWithAttributes
 
@@ -4851,7 +4851,7 @@ soundOutlined =
 
 
 {-| -}
-soundTwoTone : List (Html.Attribute msg) -> Html msg
+soundTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 soundTwoTone =
     SoundTwoTone.viewWithAttributes
 
@@ -4875,7 +4875,7 @@ starOutlined =
 
 
 {-| -}
-starTwoTone : List (Html.Attribute msg) -> Html msg
+starTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 starTwoTone =
     StarTwoTone.viewWithAttributes
 
@@ -4923,7 +4923,7 @@ stopOutlined =
 
 
 {-| -}
-stopTwoTone : List (Html.Attribute msg) -> Html msg
+stopTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 stopTwoTone =
     StopTwoTone.viewWithAttributes
 
@@ -4971,7 +4971,7 @@ switcherOutlined =
 
 
 {-| -}
-switcherTwoTone : List (Html.Attribute msg) -> Html msg
+switcherTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 switcherTwoTone =
     SwitcherTwoTone.viewWithAttributes
 
@@ -5001,7 +5001,7 @@ tabletOutlined =
 
 
 {-| -}
-tabletTwoTone : List (Html.Attribute msg) -> Html msg
+tabletTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 tabletTwoTone =
     TabletTwoTone.viewWithAttributes
 
@@ -5019,7 +5019,7 @@ tagOutlined =
 
 
 {-| -}
-tagTwoTone : List (Html.Attribute msg) -> Html msg
+tagTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 tagTwoTone =
     TagTwoTone.viewWithAttributes
 
@@ -5037,7 +5037,7 @@ tagsOutlined =
 
 
 {-| -}
-tagsTwoTone : List (Html.Attribute msg) -> Html msg
+tagsTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 tagsTwoTone =
     TagsTwoTone.viewWithAttributes
 
@@ -5085,7 +5085,7 @@ thunderboltOutlined =
 
 
 {-| -}
-thunderboltTwoTone : List (Html.Attribute msg) -> Html msg
+thunderboltTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 thunderboltTwoTone =
     ThunderboltTwoTone.viewWithAttributes
 
@@ -5109,7 +5109,7 @@ toolOutlined =
 
 
 {-| -}
-toolTwoTone : List (Html.Attribute msg) -> Html msg
+toolTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 toolTwoTone =
     ToolTwoTone.viewWithAttributes
 
@@ -5127,7 +5127,7 @@ trademarkCircleOutlined =
 
 
 {-| -}
-trademarkCircleTwoTone : List (Html.Attribute msg) -> Html msg
+trademarkCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 trademarkCircleTwoTone =
     TrademarkCircleTwoTone.viewWithAttributes
 
@@ -5163,7 +5163,7 @@ trophyOutlined =
 
 
 {-| -}
-trophyTwoTone : List (Html.Attribute msg) -> Html msg
+trophyTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 trophyTwoTone =
     TrophyTwoTone.viewWithAttributes
 
@@ -5217,7 +5217,7 @@ unlockOutlined =
 
 
 {-| -}
-unlockTwoTone : List (Html.Attribute msg) -> Html msg
+unlockTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 unlockTwoTone =
     UnlockTwoTone.viewWithAttributes
 
@@ -5241,7 +5241,7 @@ upCircleOutlined =
 
 
 {-| -}
-upCircleTwoTone : List (Html.Attribute msg) -> Html msg
+upCircleTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 upCircleTwoTone =
     UpCircleTwoTone.viewWithAttributes
 
@@ -5265,7 +5265,7 @@ upSquareOutlined =
 
 
 {-| -}
-upSquareTwoTone : List (Html.Attribute msg) -> Html msg
+upSquareTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 upSquareTwoTone =
     UpSquareTwoTone.viewWithAttributes
 
@@ -5289,7 +5289,7 @@ usbOutlined =
 
 
 {-| -}
-usbTwoTone : List (Html.Attribute msg) -> Html msg
+usbTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 usbTwoTone =
     UsbTwoTone.viewWithAttributes
 
@@ -5385,7 +5385,7 @@ videoCameraOutlined =
 
 
 {-| -}
-videoCameraTwoTone : List (Html.Attribute msg) -> Html msg
+videoCameraTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 videoCameraTwoTone =
     VideoCameraTwoTone.viewWithAttributes
 
@@ -5403,7 +5403,7 @@ walletOutlined =
 
 
 {-| -}
-walletTwoTone : List (Html.Attribute msg) -> Html msg
+walletTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 walletTwoTone =
     WalletTwoTone.viewWithAttributes
 
@@ -5421,7 +5421,7 @@ warningOutlined =
 
 
 {-| -}
-warningTwoTone : List (Html.Attribute msg) -> Html msg
+warningTwoTone : List (Html.Attribute msg) -> { primaryColor : Maybe String, secondaryColor : Maybe String } -> Html msg
 warningTwoTone =
     WarningTwoTone.viewWithAttributes
 
